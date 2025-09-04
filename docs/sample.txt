@@ -1,0 +1,26 @@
+Welcome to 21Questions Chat Widget Documentation
+
+This is a sample document that demonstrates how the chat widget retrieves information from local documents.
+
+Key Features:
+- The chat widget appears as a floating button in the corner of the screen
+- When clicked, it expands into a full chat interface
+- Users can ask questions and receive AI-powered responses
+- The system searches through local documents to provide relevant context
+- Supports both PDF and TXT file formats
+
+Technical Details:
+- Built with React and TypeScript for type safety
+- Uses Google Gemini AI for natural language processing
+- Node.js/Express backend serves as a proxy to the AI service
+- Framework-agnostic design allows integration into any web application
+- Specifically designed for Mendix pluggable widget compatibility
+
+Usage Instructions:
+1. Click the floating chat button to open the interface
+2. Type your question in the input field
+3. Press Send or hit Enter to submit your question
+4. The AI will search through available documents and provide a response
+5. Source documents will be listed when relevant information is found
+
+This system is ideal for customer support, documentation assistance, and interactive help systems.

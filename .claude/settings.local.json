@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(dir)",
+      "Read(/C:\\Users\\thoma\\Documents\\21Questions\\21Questions\\chatbot/**)",
+      "Read(/C:\\Users\\thoma\\Documents\\21Questions\\21Questions\\src/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

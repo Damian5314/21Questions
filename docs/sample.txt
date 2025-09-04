@@ -1,26 +1,26 @@
-Welcome to 21Questions Chat Widget Documentation
+Welkom bij de 21Questions Chat Widget Documentatie
 
-This is a sample document that demonstrates how the chat widget retrieves information from local documents.
+Dit is een voorbeelddocument dat toont hoe de chat widget informatie ophaalt uit lokale documenten.
 
-Key Features:
-- The chat widget appears as a floating button in the corner of the screen
-- When clicked, it expands into a full chat interface
-- Users can ask questions and receive AI-powered responses
-- The system searches through local documents to provide relevant context
-- Supports both PDF and TXT file formats
+Belangrijkste Kenmerken:
+- De chat widget verschijnt als een zwevende knop in de hoek van het scherm
+- Bij het klikken klapt deze uit naar een volledige chat interface
+- Gebruikers kunnen vragen stellen en AI-gestuurde antwoorden ontvangen
+- Het systeem doorzoekt lokale documenten om relevante context te bieden
+- Ondersteunt zowel PDF als TXT bestandsformaten
 
-Technical Details:
-- Built with React and TypeScript for type safety
-- Uses Google Gemini AI for natural language processing
-- Node.js/Express backend serves as a proxy to the AI service
-- Framework-agnostic design allows integration into any web application
-- Specifically designed for Mendix pluggable widget compatibility
+Technische Details:
+- Gebouwd met React en TypeScript voor type veiligheid
+- Gebruikt Google Gemini AI voor natuurlijke taalverwerking
+- Node.js/Express backend dient als proxy naar de AI service
+- Framework-agnostisch ontwerp maakt integratie in elke webapplicatie mogelijk
+- Speciaal ontworpen voor Mendix pluggable widget compatibiliteit
 
-Usage Instructions:
-1. Click the floating chat button to open the interface
-2. Type your question in the input field
-3. Press Send or hit Enter to submit your question
-4. The AI will search through available documents and provide a response
-5. Source documents will be listed when relevant information is found
+Gebruiksinstructies:
+1. Klik op de zwevende chat knop om de interface te openen
+2. Typ je vraag in het invoerveld
+3. Druk op Verzenden of druk op Enter om je vraag in te dienen
+4. De AI zal door de beschikbare documenten zoeken en een antwoord geven
+5. Brondocumenten worden vermeld wanneer relevante informatie wordt gevonden
 
-This system is ideal for customer support, documentation assistance, and interactive help systems.
+Dit systeem is ideaal voor klantenondersteuning, documentatie-assistentie en interactieve hulpsystemen.

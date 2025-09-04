@@ -43,7 +43,7 @@ export const useChat = (apiUrl: string = 'http://localhost:3001') => {
     } catch (error) {
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: 'Sorry, I encountered an error. Please try again.',
+        text: 'Sorry, er is een fout opgelopen. Probeer graag opnieuw.',
         sender: 'bot',
         timestamp: new Date()
       };

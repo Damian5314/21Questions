@@ -18,7 +18,7 @@ root.render(
         21Questions Demo
       </h1>
       <p style={{ textAlign: 'center', color: '#666', marginBottom: '40px' }}>
-        The chat widget appears in the bottom-right corner. Click it to start chatting!
+        De chat widget staat rechts onderin 
       </p>
       
       <div style={{ 
@@ -29,25 +29,21 @@ root.render(
         borderRadius: '8px',
         boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
       }}>
-        <h2>Sample Content</h2>
+        <h2>Uitleg</h2>
         <p>
-          This is a demo page showing how the chat widget works. The widget is framework-agnostic 
-          and can be easily integrated into any application, including Mendix pluggable widgets.
+          Dit is de demo pagina van de ai chatbot genaamd 21Questions (ik ben nog niet zeker over de naam), zal later met mendix pluggable widgets moeten werken.
         </p>
         
         <h3>Key Features:</h3>
         <ul>
-          <li>Floating button that expands to chat panel</li>
-          <li>Integration with Gemini AI via Node.js proxy</li>
-          <li>Document retrieval from local files</li>
-          <li>TypeScript support</li>
-          <li>Customizable themes and positioning</li>
+          <li>Floating knop waar je op moet drukken</li>
+          <li>Integratie met Gemini AI via Node.js proxy</li>
+          <li>Documenten via locale bestanden (voor nu) voor RAG (om de ai te leren over qubz)</li>
         </ul>
         
-        <h3>Usage:</h3>
+        <h3>Gebruik:</h3>
         <p>
-          Simply import the ChatWidget component and add it to your application. 
-          It will appear as a floating button in the configured position.
+          Later via de mendix widget plugin importeren naar 21QUBZ, ik moet nog uitzoeken hoe precies...
         </p>
       </div>
       

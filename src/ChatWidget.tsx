@@ -204,7 +204,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
                 fontSize: '14px',
                 margin: '20px 0'
               }}>
-                Ask me anything about your documents!
+                Vraag me alles over 21QUBZ!
               </div>
             )}
             
@@ -215,7 +215,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
                 </div>
                 {message.sources && message.sources.length > 0 && (
                   <div style={sourcesStyle}>
-                    Sources: {message.sources.join(', ')}
+                    Bronnen: {message.sources.join(', ')}
                   </div>
                 )}
               </div>
@@ -223,7 +223,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
             
             {isLoading && (
               <div style={messageStyle('bot')}>
-                <span style={{ opacity: 0.7 }}>Thinking...</span>
+                <span style={{ opacity: 0.7 }}>Aan het denken...</span>
               </div>
             )}
             
@@ -236,7 +236,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
               type="text"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              placeholder="Ask a question..."
+              placeholder="Stel een vraag..."
               disabled={isLoading}
             />
             <button
@@ -244,7 +244,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
               type="submit"
               disabled={isLoading || !inputValue.trim()}
             >
-              Send
+              Verstuur
             </button>
           </form>
         </div>

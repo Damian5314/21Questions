@@ -1,0 +1,6 @@
+## Contract Management
+
+### Contracten
+- **Nieuw contract maken**: Contract > Contract > Groene plusje (+)
+- **Contract bewerken**: Contract > Contract > [Selecteer contract] > Bewerken
+- **Contract inzien**: Contract > Contract > [Selecteer contract]

@@ -1,0 +1,14 @@
+## Algemene Navigatie Patronen
+
+### Standaard acties
+- **Nieuw item toevoegen**: [Hoofdmenu] > [Submenu] > [Lijst] > Groene plusje (+)
+- **Item bewerken**: [Hoofdmenu] > [Submenu] > [Lijst] > [Selecteer item] > Bewerken
+- **Item bekijken**: [Hoofdmenu] > [Submenu] > [Lijst] > [Selecteer item]
+- **Item verwijderen**: [Hoofdmenu] > [Submenu] > [Lijst] > [Selecteer item] > Verwijderen
+
+## Instructies voor AI
+Wanneer een gebruiker vraagt hoe ze ergens naartoe moeten navigeren:
+1. Zoek het juiste pad in deze lijst
+2. Geef de stappen duidelijk weer met > tussen elke stap
+3. Vermeld expliciet wanneer er op het "groene plusje" geklikt moet worden voor nieuwe items
+4. Als het pad niet bekend is, vraag om meer details over waar ze naartoe willen

@@ -1,0 +1,53 @@
+## Relaties
+
+### Klanten
+- **Klanten toevoegen**: Relaties > Klanten > Groene plusje (+)
+- **Klant bekijken**: Relaties > Klanten > [Selecteer klant]
+- **Klant bewerken**: Relaties > Klanten > [Selecteer klant] > Bewerken
+
+### Prospects
+- **Prospect toevoegen**: Relaties > Prospects > Groene plusje (+)
+- **Prospect bekijken**: Relaties > Prospects > [Selecteer prospect]
+- **Prospect bewerken**: Relaties > Prospects > [Selecteer prospect] > Bewerken
+
+### Verloren relaties
+- **Verloren relatie toevoegen**: Relaties > Verloren > Groene plusje (+)
+- **Verloren relatie bekijken**: Relaties > Verloren > [Selecteer relatie]
+- **Verloren relatie bewerken**: Relaties > Verloren > [Selecteer relatie] > Bewerken
+
+### Contactpersonen
+- **Contactpersoon toevoegen**: Relaties > Contactpersonen > Groene plusje (+)
+- **Contactpersoon bekijken**: Relaties > Contactpersonen > [Selecteer contactpersoon] > Openen
+- **Contactpersoon bewerken**: Relaties > Contactpersonen > [Selecteer contactpersoon] > Bewerken
+- **Contactpersoon activeren/deactiveren voor KlantPortaal**: Relaties > Contactpersonen > [Selecteer contactpersoon] > Activeer/Deactiveer Contactpersoon voor KlantPortaal
+
+### Informatieverziening
+- **Informatieverziening toevoegen**: Relaties > Informatieverziening > Groene plusje (+)
+- **Informatieverziening bekijken**: Relaties > Informatieverziening > [Selecteer item]
+- **Informatieverziening bewerken**: Relaties > Informatieverziening > [Selecteer item] > Bewerken
+
+### Profielen
+- **Profiel toevoegen**: Relaties > Profielen > Groene plusje (+)
+- **Profiel bekijken**: Relaties > Profielen > [Selecteer profiel]
+- **Profiel bewerken**: Relaties > Profielen > [Selecteer profiel] > Bewerken
+
+### Klant Informeren
+- **Klant informeren toevoegen**: Relaties > Klant Informeren > Groene plusje (+)
+- **Klant informeren bekijken**: Relaties > Klant Informeren > [Selecteer bericht]
+- **Klant informeren openen**: Relaties > Klant Informeren > [Selecteer bericht] > Openen
+
+### Servicelocaties
+- **Servicelocatie toevoegen**: Relaties > Servicelocaties > Groene plusje (+)
+- **Servicelocatie bekijken**: Relaties > Servicelocaties > [Selecteer locatie]
+- **Servicelocatie bewerken**: Relaties > Servicelocaties > [Selecteer locatie] > Bewerken
+
+### Relatiegroepen
+- **Relatiegroep toevoegen**: Relaties > Relatiegroepen > Groene plusje (+)
+- **Relatiegroep bekijken**: Relaties > Relatiegroepen > [Selecteer groep] > Openen
+- **Relatiegroep bewerken**: Relaties > Relatiegroepen > [Selecteer groep] > Bewerken
+
+### Verzamelfacturen
+- **Verzamelfactuur toevoegen**: Relaties > Verzamelfacturen > Groene plusje (+)
+- **Verzamelfactuur bekijken**: Relaties > Verzamelfacturen > [Selecteer factuur]
+- **Verzamelfactuur bewerken**: Relaties > Verzamelfacturen > [Selecteer factuur] > Bewerken
+- **Verzamelfactuur verwijderen (Superuser)**: Relaties > Verzamelfacturen > [Selecteer factuur] > Verwijder (Superuser)

@@ -1,0 +1,6 @@
+## Wetgeving & Afvalstroommen
+
+### Afvalstroomnummers
+- **Afvalstroomnummer toevoegen**: Wetgeving > Afvalstroomnummers > Afvalstroomnummers > Groene plusje (+)
+- **Afvalstroomnummer bewerken**: Wetgeving > Afvalstroomnummers > Afvalstroomnummers > [Selecteer afvalstroom] > Bewerken
+- **Afvalstroomnummers bekijken**: Wetgeving > Afvalstroomnummers > Afvalstroomnummers

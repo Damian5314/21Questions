@@ -38,7 +38,7 @@ root.render(
         <ul>
           <li>Floating knop waar je op moet drukken</li>
           <li>Integratie met Gemini AI via Node.js proxy</li>
-          <li>Documenten via locale bestanden (voor nu) voor RAG (om de ai te leren over qubz)</li>
+          <li>Documenten via locale bestanden (voor nu) voor kennisbank (om de ai te leren over qubz)</li>
         </ul>
         
         <h3>Gebruik:</h3>

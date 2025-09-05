@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const pdfParse = require('pdf-parse');
+const mammoth = require('mammoth');
 
 let documentStore = [];
 
@@ -28,6 +29,18 @@ const initializeDocuments = async () => {
           });
         } catch (error) {
           console.error(`Error parsing PDF ${file}:`, error);
+        }
+      } else if (file.endsWith('.docx')) {
+        try {
+          const buffer = fs.readFileSync(filePath);
+          const result = await mammoth.extractRawText({ buffer: buffer });
+          documentStore.push({
+            filename: file,
+            content: result.value,
+            type: 'docx'
+          });
+        } catch (error) {
+          console.error(`Error parsing DOCX ${file}:`, error);
         }
       }
     }

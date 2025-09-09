@@ -60,26 +60,81 @@ const initializeDocuments = async () => {
 const searchDocuments = (query) => {
   const queryLower = query.toLowerCase();
   
+  // Define synonym mappings for better search
+  const synonyms = {
+    'klant': ['klanten', 'klant', 'relatie', 'relaties', 'customer'],
+    'maken': ['toevoegen', 'aanmaken', 'creëren', 'nieuwe', 'plus', 'plusje'],
+    'contract': ['contracten', 'overeenkomst', 'overeenkomsten'],
+    'afvalstroom': ['afvalstromen', 'afvalstroommen', 'afval'],
+    'personeel': ['medewerker', 'medewerkers', 'werknemers'],
+    'planning': ['plannen', 'plannings', 'inplannen']
+  };
+  
+  // Expand query with synonyms
+  let searchTerms = [queryLower];
+  for (const [key, values] of Object.entries(synonyms)) {
+    if (queryLower.includes(key) || values.some(synonym => queryLower.includes(synonym))) {
+      searchTerms.push(...values);
+      searchTerms.push(key);
+    }
+  }
+  
   // Check if this is a navigation question
-  const navigationKeywords = ['waar', 'hoe', 'maken', 'toevoegen', 'vinden', 'navigeren', 'contract', 'afvalstroom', 'gaan naar', 'plusje', 'nieuwe'];
+  const navigationKeywords = ['waar', 'hoe', 'maken', 'toevoegen', 'vinden', 'navigeren', 'contract', 'afvalstroom', 'gaan naar', 'plusje', 'nieuwe', 'klant', 'aanmaken', 'creëren'];
   const isNavigationQuery = navigationKeywords.some(keyword => queryLower.includes(keyword));
   
-  let results = documentStore.filter(doc => 
-    doc.content.toLowerCase().includes(queryLower)
-  ).map(doc => ({
+  // Search with expanded terms
+  let results = documentStore.filter(doc => {
+    const contentLower = doc.content.toLowerCase();
+    return searchTerms.some(term => contentLower.includes(term));
+  }).map(doc => ({
     filename: doc.filename,
     content: doc.content.substring(0, 500),
     type: doc.type
   }));
   
-  // Always include Layout files for navigation queries
+  // Prioritize specific Layout files based on query content
   if (isNavigationQuery) {
+    const queryPriorities = {
+      'klant': 'Layout/relaties.txt',
+      'relatie': 'Layout/relaties.txt', 
+      'contract': 'Layout/contract-management.txt',
+      'personeel': 'Layout/personeel.txt',
+      'planning': 'Layout/planningen.txt',
+      'order': 'Layout/orders.txt',
+      'factuur': 'Layout/facturatie.txt',
+      'wetgeving': 'Layout/wetgeving.txt',
+      'afvalstroom': 'Layout/wetgeving.txt'
+    };
+    
+    // Find the most relevant Layout file
+    let priorityFile = null;
+    for (const [keyword, filename] of Object.entries(queryPriorities)) {
+      if (queryLower.includes(keyword)) {
+        priorityFile = filename;
+        break;
+      }
+    }
+    
+    // Add priority file first if found
+    if (priorityFile) {
+      const priorityDoc = documentStore.find(doc => doc.filename === priorityFile);
+      if (priorityDoc && !results.some(doc => doc.filename === priorityFile)) {
+        results.unshift({
+          filename: priorityDoc.filename,
+          content: priorityDoc.content,
+          type: priorityDoc.type
+        });
+      }
+    }
+    
+    // Add other Layout files
     const layoutDocs = documentStore.filter(doc => 
-      doc.filename.startsWith('Layout/')
+      doc.filename.startsWith('Layout/') && doc.filename !== priorityFile
     );
     layoutDocs.forEach(layoutDoc => {
       if (!results.some(doc => doc.filename === layoutDoc.filename)) {
-        results.unshift({
+        results.push({
           filename: layoutDoc.filename,
           content: layoutDoc.content,
           type: layoutDoc.type

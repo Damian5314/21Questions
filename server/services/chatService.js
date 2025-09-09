@@ -21,7 +21,7 @@ const generateChatResponse = async (message) => {
 Vraag: ${message}${context}
 
 INSTRUCTIES:
-BELANGRIJK: Als er gevraagd wordt waar je iets kunt maken, toevoegen, vinden, of navigeren in het systeem, raadpleeg dan eerst de navigatiepaden in LayoutQubz.txt voor de juiste stappen.
+BELANGRIJK: Als er gevraagd wordt waar je iets kunt maken, toevoegen, vinden, of navigeren in het systeem, raadpleeg dan eerst de navigatiepaden in de Layout bestanden (zoals Layout/relaties.txt, Layout/contract-management.txt, enz.) voor de juiste stappen.
 ${relevantDocs.length > 0 
   ? '- Er zijn relevante documenten gevonden, dus beantwoord de vraag in het Nederlands gebaseerd op deze documentinformatie.' 
   : '- Als de vraag gerelateerd is aan 21Qubz, 21south, afvalinzameling, ERP-systemen of gerelateerde onderwerpen, beantwoord dan in het Nederlands.\n- Als de vraag NIET gerelateerd is aan deze onderwerpen, antwoord dan: "Sorry, ik kan alleen vragen beantwoorden die gerelateerd zijn aan 21Qubz en 21south. Heb je vragen over onze diensten of processen?"'

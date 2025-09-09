@@ -1,0 +1,287 @@
+## Planningen - Aanvragen Klanten
+### Aanvragen Uitbesteed werk
+- **Aanvraag toevoegen**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > Groene plusje (+)
+- **Aanvraag bekijken**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag]
+- **Aanvraag bewerken**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Bewerken
+- **Aanvraag openen controlespoor**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Open controlespoor
+- **Aanvraag naar klant**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Ga naar Klant
+- **Aanvraag naar transporteur**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Ga naar Transporteur
+- **Aanvraag opnieuw sturen**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Stuur aanvraag opnieuw
+- **Aanvraag starten naar uitgevoerd**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Uitbesteed werk > [Selecteer aanvraag] > Start naar Uitgevoerd
+
+### Aanvragen Klantportaal
+- **Aanvraag toevoegen**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > Groene plusje (+)
+- **Aanvraag bekijken**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > [Selecteer aanvraag]
+- **Aanvraag openen**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > [Selecteer aanvraag] > Open aanvraag
+- **Aanvraag koppelen**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > [Selecteer aanvraag] > Aanvraag koppelen
+- **Aanvraag openen controlespoor**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > [Selecteer aanvraag] > Open controlespoor
+- **Aanvraag naar klant**: Planningen > Aanvragen > Aanvragen Klanten > Aanvragen Klantportaal > [Selecteer aanvraag] > Ga naar Klant
+
+### Bestelling Webshop
+- **Bestelling bekijken**: Planningen > Aanvragen > Aanvragen Klanten > Bestelling Webshop > [Selecteer bestelling] > Bekijk bestelling
+- **Bestelling Guid aanpassen (Superuser)**: Planningen > Aanvragen > Aanvragen Klanten > Bestelling Webshop > [Selecteer bestelling] > Zet Guid in BestellingID [SU]
+
+---
+
+## Planningen - Berichten Chauffeurs
+- **Bericht toevoegen**: Planningen > Berichten Chauffeurs > Groene plusje (+)
+- **Bericht bekijken**: Planningen > Berichten Chauffeurs > [Selecteer bericht]
+- **Bericht openen**: Planningen > Berichten Chauffeurs > [Selecteer bericht] > Open bericht
+- **Bericht kopiëren**: Planningen > Berichten Chauffeurs > [Selecteer bericht] > Kopieer bericht
+
+---
+
+## Planningen - Planbord
+### Werkorders
+- **Werkorder toevoegen**: Planningen > Planbord > Werkorders > Groene plusje (+)
+- **Werkorder bekijken**: Planningen > Planbord > Werkorders > [Selecteer werkorder]
+- **Werkorder bewerken**: Planningen > Planbord > Werkorders > [Selecteer werkorder] > Bewerken
+- **Werkorder plannen**: Planningen > Planbord > Werkorders > [Selecteer werkorder] > Plannen
+- **Werkorder toevoegen aan route**: Planningen > Planbord > Werkorders > [Selecteer werkorder] > Toevoegen aan Route
+- **Werkorder verwijderen**: Planningen > Planbord > Werkorders > [Selecteer werkorder] > Verwijderen
+- **Werkorder kopiëren**: Planningen > Planbord > Werkorders > [Selecteer werkorder] > Kopieer order
+
+### Routes
+- **Route bekijken**: Planningen > Planbord > Routes > [Selecteer route]
+- **Route bewerken**: Planningen > Planbord > Routes > [Selecteer route] > Bewerken
+- **Route plannen**: Planningen > Planbord > Routes > [Selecteer route] > Plannen
+
+### Werkorders zonder PlaatsingGroep
+- **Werkorder bekijken**: Planningen > Planbord > Werkorders zonder PlaatsingGroep > [Selecteer werkorder]
+- **Werkorder bewerken**: Planningen > Planbord > Werkorders zonder PlaatsingGroep > [Selecteer werkorder] > Bewerken
+- **Werkorder verwijderen**: Planningen > Planbord > Werkorders zonder PlaatsingGroep > [Selecteer werkorder] > Verwijderen
+
+## Inplannen Contracten
+- **Contract inplannen**: Planningen > Contracten & Orders > Inplannen contracten > [Selecteer contract] > Inplannen
+- **Terug naar offerte**: Planningen > Contracten & Orders > Inplannen contracten > Terug naar Offerte
+
+---
+
+## Inplannen Werkorders
+- **Werkorder toevoegen**: Planningen > Contracten & Orders > Inplannen werkorders > Groene plusje (+)
+- **Werkorder bewerken**: Planningen > Contracten & Orders > Inplannen werkorders > [Selecteer werkorder] > Bewerken
+- **Werkorder verwijderen**: Planningen > Contracten & Orders > Inplannen werkorders > [Selecteer werkorder] > Verwijder
+- **Werkorder plannen**: Planningen > Contracten & Orders > Inplannen werkorders > [Selecteer werkorder] > Plannen
+- **Werkorder selecteren/deselecteren**: Planningen > Contracten & Orders > Inplannen werkorders > Alles selecteren / Alles deselecteren
+
+---
+
+## Routes & Orders
+### Werkorders
+- **Werkorder bewerken**: Planningen > Contracten & Orders > Routes & orders > Werkorders > [Selecteer werkorder] > Bewerken
+- **Werkorder verwijderen**: Planningen > Contracten & Orders > Routes & orders > Werkorders > [Selecteer werkorder] > Verwijder
+- **Werkorder exporteren naar Excel**: Planningen > Contracten & Orders > Routes & orders > Werkorders > Naar Excel exporteren
+
+### Routes
+- **Route beheren**: Planningen > Contracten & Orders > Routes & orders > Routes > [Selecteer route]
+
+### Eerstvolgende Ledigingen Abbo’s
+- **Lediging beheren**: Planningen > Contracten & Orders > Routes & orders > Eerstvolgende Ledigingen Abbo’s > [Selecteer item]
+
+---
+
+## Periodeplanningen
+- **Periodeplanning openen**: Planningen > Contracten & Orders > Periodeplanningen > [Selecteer periodeplanning] > Open periodeplanning
+- **Periodeplanning verlengen**: Planningen > Contracten & Orders > Periodeplanningen > [Selecteer periodeplanning] > Verlengen
+- **Periodeplanning stopzetten**: Planningen > Contracten & Orders > Periodeplanningen > [Selecteer periodeplanning] > Stopzetten
+
+---
+
+## Uitsluitingsperiodes
+- **Uitsluitingsperiode toevoegen**: Planningen > Contracten & Orders > Uitsluitingsperiodes > Groene plusje (+)
+- **Uitsluitingsperiode openen**: Planningen > Contracten & Orders > Uitsluitingsperiodes > [Selecteer uitsluitingsperiode] > Open uitsluitperiode
+- **Uitsluitingsperiode verwijderen**: Planningen > Contracten & Orders > Uitsluitingsperiodes > [Selecteer uitsluitingsperiode] > Verwijderen
+- **Uitsluitingsperiode kopiëren**: Planningen > Contracten & Orders > Uitsluitingsperiodes > [Selecteer uitsluitingsperiode] > Kopieer
+- **Uitsluiting doorvoeren**: Planningen > Contracten & Orders > Uitsluitingsperiodes > Acties > Uitsluiting doorvoeren
+
+---
+
+## Teamplanning
+- **Teamplanning bekijken**: Planningen > Contracten & Orders > Teamplanningen > [Selecteer team]
+
+---
+
+## Routes & Orders Uitvoering
+### Werkorders
+- **Werkorder bewerken**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Bewerken
+- **Werkorder uitvoeren**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Uitgevoerd
+- **Werkorder uitvoeren en controleren**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Uitgevoerd en Gecontroleerd
+- **Weegbon aanmaken**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Weegbon aanmaken
+- **Begeleidingsbrief maken**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Begeleidingsbrief
+- **Opdrachtbon maken**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Opdrachtbon
+- **Werkorder verwijderen**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Verwijderen
+- **Werkorder kopiëren**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > [Selecteer werkorder] > Kopieer order
+- **Werkorder exporteren naar Excel**: Planningen > Contracten & Orders > Routes & orders uitvoering > Werkorders > Naar Excel exporteren
+
+---
+
+## Paklijst
+- **Paklijst toevoegen**: Planningen > Contracten & Orders > Paklijst > Groene plusje (+)
+- **Paklijst bewerken**: Planningen > Contracten & Orders > Paklijst > [Selecteer paklijst] > Bewerken
+
+---
+
+## Routebeheer - Basisroutes
+- **Basisroute toevoegen**: Planningen > Routebeheer > Basisroutes > Groene plusje (+)
+- **Basisroute bekijken**: Planningen > Routebeheer > Basisroutes > [Selecteer basisroute]
+- **Basisroute openen**: Planningen > Routebeheer > Basisroutes > [Selecteer basisroute] > Open basisroute
+
+---
+
+## Routebeheer - Locaties
+- **Locatie toevoegen**: Planningen > Routebeheer > Locaties > Groene plusje (+)
+- **Locatie bekijken**: Planningen > Routebeheer > Locaties > [Selecteer locatie]
+- **Locatie openen**: Planningen > Routebeheer > Locaties > [Selecteer locatie] > Open
+
+---
+
+## Routebeheer - Transportregio’s
+- **Transportregio toevoegen**: Planningen > Routebeheer > Transportregio’s > Groene plusje (+)
+- **Transportregio bekijken**: Planningen > Routebeheer > Transportregio’s > [Selecteer regio]
+- **Transportregio openen**: Planningen > Routebeheer > Transportregio’s > [Selecteer regio] > Open Transport Regio
+- **Transportregio verwijderen**: Planningen > Routebeheer > Transportregio’s > [Selecteer regio] > Verwijder
+
+---
+
+## Routebeheer - Basisroutes Herschikken
+- **Basisroute herschikken**: Planningen > Routebeheer > Basisroutes herschikken > [Selecteer basisroute]
+- **Exporteren naar Excel**: Planningen > Routebeheer > Basisroutes herschikken > Naar Excel exporteren
+- **Uitleg herschikken**: Planningen > Routebeheer > Basisroutes herschikken > Uitleg herschikken
+- **Alles herstellen**: Planningen > Routebeheer > Basisroutes herschikken > Alles herstellen
+- **Splithelper verwijderen (SU)**: Planningen > Routebeheer > Basisroutes herschikken > Delete Splithelper (SU)
+- **Lock verwijderen**: Planningen > Routebeheer > Basisroutes herschikken > Verwijder Lock
+
+---
+
+## Routebeheer - Afvalstromen koppelen
+- **Afvalstroom koppelen**: Planningen > Routebeheer > Afvalstromen koppelen > Groene plusje (+)
+- **Afvalstroom bekijken**: Planningen > Routebeheer > Afvalstromen koppelen > [Selecteer item]
+- **Afvalstroom verwijderen**: Planningen > Routebeheer > Afvalstromen koppelen > [Selecteer item] > Verwijderen
+
+---
+
+## Routebeheer - Afvalstromen Routes
+- **Route toevoegen**: Planningen > Routebeheer > Afvalstromen Routes > Groene plusje (+)
+- **Route bekijken**: Planningen > Routebeheer > Afvalstromen Routes > [Selecteer route]
+- **Route verwijderen**: Planningen > Routebeheer > Afvalstromen Routes > [Selecteer route] > Verwijderen
+
+---
+
+## Planningen - Voertuigbeheer
+
+### Voertuigen
+- **Voertuig toevoegen**: Planningen > Voertuigbeheer > Voertuigen > Groene plusje (+)
+- **Voertuig bekijken**: Planningen > Voertuigbeheer > Voertuigen > [Selecteer voertuig]
+- **Voertuig openen**: Planningen > Voertuigbeheer > Voertuigen > [Selecteer voertuig] > Open voertuig
+- **Voertuig verwijderen**: Planningen > Voertuigbeheer > Voertuigen > [Selecteer voertuig] > Verwijderen
+- **Voertuigen exporteren naar Excel**: Planningen > Voertuigbeheer > Voertuigen > Naar Excel exporteren
+
+---
+
+### Voertuigsoorten
+- **Voertuigsoort toevoegen**: Planningen > Voertuigbeheer > Voertuigsoorten > Groene plusje (+)
+- **Voertuigsoort bekijken**: Planningen > Voertuigbeheer > Voertuigsoorten > [Selecteer voertuigsoort]
+- **Voertuigsoort openen**: Planningen > Voertuigbeheer > Voertuigsoorten > [Selecteer voertuigsoort] > Open voertuigsoort
+
+---
+
+### VIR rapporten
+- **VIR rapport bekijken**: Planningen > Voertuigbeheer > VIR rapporten > [Selecteer rapport]
+- **VIR rapport openen**: Planningen > Voertuigbeheer > VIR rapporten > [Selecteer rapport] > Open VIR Rapport
+- **VIR rapport exporteren naar Excel**: Planningen > Voertuigbeheer > VIR rapporten > Naar Excel exporteren
+
+---
+
+### Niet planbare objecten
+- **Object toevoegen**: Planningen > Voertuigbeheer > Niet planbare objecten > Groene plusje (+)
+- **Object bekijken**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object]
+- **Object openen**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object] > Open object
+- **Verhuurperiode toevoegen**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object] > Verhuurperiodes > Groene plusje (+)
+- **Verhuurperiode bekijken**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object] > Verhuurperiodes > [Selecteer periode]
+- **Verhuurperiode openen**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object] > Verhuurperiodes > [Selecteer periode] > Open
+- **Verhuurperiode verwijderen**: Planningen > Voertuigbeheer > Niet planbare objecten > [Selecteer object] > Verhuurperiodes > [Selecteer periode] > Verwijderen
+
+---
+
+### Weegsystemen
+- **Weegsysteem toevoegen**: Planningen > Voertuigbeheer > Weegsystemen > Groene plusje (+)
+- **Weegsysteem bekijken**: Planningen > Voertuigbeheer > Weegsystemen > [Selecteer weegsysteem]
+- **Weegsysteem openen**: Planningen > Voertuigbeheer > Weegsystemen > [Selecteer weegsysteem] > Open
+- **Weegsysteem op alle auto’s zetten**: Planningen > Voertuigbeheer > Weegsystemen > Op alle auto’s zetten
+
+---
+
+### Onderhoudsoorten
+- **Garagesoort toevoegen**: Planningen > Voertuigbeheer > Onderhoudsoorten > Garagesoorten > Groene plusje (+)
+- **Garagesoort bekijken**: Planningen > Voertuigbeheer > Onderhoudsoorten > Garagesoorten > [Selecteer garagesoort]
+- **Garagesoort openen**: Planningen > Voertuigbeheer > Onderhoudsoorten > Garagesoorten > [Selecteer garagesoort] > Open garagesoort
+- **Onderhoudsoort toevoegen**: Planningen > Voertuigbeheer > Onderhoudsoorten > Onderhoudsoort > Groene plusje (+)
+- **Onderhoudsoort bekijken**: Planningen > Voertuigbeheer > Onderhoudsoorten > Onderhoudsoort > [Selecteer onderhoudsoort]
+- **Onderhoudsoort openen**: Planningen > Voertuigbeheer > Onderhoudsoorten > Onderhoudsoort > [Selecteer onderhoudsoort] > Open onderhoudsoort
+
+---
+
+### Voertuigen Onderhoud
+- **Onderhoud bekijken**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > [Selecteer onderhoud]
+- **Onderhoud openen**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > [Selecteer onderhoud] > Open onderhoud
+- **Overzicht onderhoud**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > Overzicht onderhoud
+- **Vervallen APK binnen 3 maanden**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > Vervallen APK binnen 3 maanden
+- **Vervallen APK binnen 1 maand**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > Vervallen APK binnen 1 maand
+- **Vervallen APK**: Planningen > Voertuigbeheer > Voertuigen Onderhoud > Vervallen APK
+
+---
+
+### Teams
+- **Team toevoegen**: Planningen > Teambeheer > Teams > Groene plusje (+)
+- **Team bekijken**: Planningen > Teambeheer > Teams > [Selecteer team]
+- **Team openen**: Planningen > Teambeheer > Teams > [Selecteer team] > Team openen
+- **Teams exporteren naar Excel**: Planningen > Teambeheer > Teams > Naar Excel exporteren
+
+---
+
+### Dagteams
+- **Dagteam toevoegen**: Planningen > Teambeheer > Dagteams > Groene plusje (+)
+- **Dagteam bekijken**: Planningen > Teambeheer > Dagteams > [Selecteer dagteam]
+- **Dagteam openen**: Planningen > Teambeheer > Dagteams > [Selecteer dagteam] > Open team
+- **Dagteam genereren**: Planningen > Teambeheer > Dagteams > Genereer Dagteams
+
+---
+
+### Teamplanning
+- **Teamplanning toevoegen**: Planningen > Teambeheer > Teamplanning > Groene plusje (+)
+- **Teamplanning bekijken**: Planningen > Teambeheer > Teamplanning > [Selecteer teamplanning]
+- **Teamplanning openen**: Planningen > Teambeheer > Teamplanning > [Selecteer teamplanning] > Open team gekoppeld aan planning
+
+---
+
+### Planbord Personeel
+- **Personeelsplanning bekijken**: Planningen > Planbord > Personeel
+- **Personeelsplanning openen**: Planningen > Planbord > Personeel > [Selecteer medewerker/dag] > Open
+- **Toon uren in-/uitschakelen**: Planningen > Planbord > Personeel > Toon uren (checkbox)
+- **Filter intern personeel**: Planningen > Planbord > Personeel > Intern personeel (checkbox)
+
+---
+
+### Planbord Dagteam
+- **Dagteamplanning bekijken**: Planningen > Planbord > Dagteam
+- **Dagteamplanning openen**: Planningen > Planbord > Dagteam > [Selecteer dagteam/dag] > Open
+
+---
+
+### Planbord Voertuig
+- **Voertuigplanning bekijken**: Planningen > Planbord > Voertuig
+- **Voertuigplanning openen**: Planningen > Planbord > Voertuig > [Selecteer voertuig/dag] > Open
+- **Filter voertuigplanning**: Planningen > Planbord > Voertuig > [Selecteer filters: categorie, transporteur, voertuigtype]
+
+---
+
+## Planningen - Verwijderde Planningen
+
+### Historie
+- **Historie bekijken**: Planningen > Verwijderde Planningen > Historie
+- **Historie openen**: Planningen > Verwijderde Planningen > Historie > [Selecteer planning] > Open historie
+
+### Verwijder Redenen
+- **Verwijderreden toevoegen**: Planningen > Verwijderde Planningen > Verwijder Redenen > Groene plusje (+)
+- **Verwijderreden bekijken**: Planningen > Verwijderde Planningen > Verwijder Redenen > [Selecteer reden]
+- **Verwijderreden openen**: Planningen > Verwijderde Planningen > Verwijder Redenen > [Selecteer reden] > Open redenen

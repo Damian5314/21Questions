@@ -1,0 +1,136 @@
+## Wetgeving
+
+### Afvalstroomnummers
+- **Afvalstroomnummer toevoegen**: Wetgeving > Afvalstroomnummers > Groene plusje (+)
+- **Afvalstroomnummer bekijken**: Wetgeving > Afvalstroomnummers > [Selecteer afvalstroomnummer]
+- **Afvalstroomnummer openen**: Wetgeving > Afvalstroomnummers > [Selecteer afvalstroomnummer] > Open afvalstroomnummer
+- **Afvalstroomnummers exporteren naar Excel**: Wetgeving > Afvalstroomnummers > Naar Excel exporteren
+
+---
+
+### Afvalcodes
+- **Afvalcode toevoegen**: Wetgeving > Afvalcodes > Groene plusje (+)
+- **Afvalcode bekijken**: Wetgeving > Afvalcodes > [Selecteer afvalcode]
+- **Afvalcode bewerken**: Wetgeving > Afvalcodes > [Selecteer afvalcode] > Bewerken
+
+---
+
+### Componenten
+- **Component toevoegen**: Wetgeving > Componenten > Groene plusje (+)
+- **Component bekijken**: Wetgeving > Componenten > [Selecteer component]
+- **Component openen**: Wetgeving > Componenten > [Selecteer component] > Open component
+
+---
+
+### CSRD rapportage
+- **Rapportage bekijken**: Wetgeving > CSRD rapportage > [Selecteer rapportage]
+- **Rapportage exporteren naar Excel**: Wetgeving > CSRD rapportage > Export to Excel
+
+---
+
+### Vergunningbeheer
+
+---
+
+### ADR Klassen
+- **ADR-klasse openen**: Wetgeving > ADR-wetgevingbeheer > ADR-klassen > [Selecteer klasse] > Open ADR-klasse
+- **ADR-klasse toevoegen**: Wetgeving > ADR-wetgevingbeheer > ADR-klassen > Groene plusje (+)
+
+---
+
+### ADR Etiketten
+- **ADR-etiket openen**: Wetgeving > ADR-wetgevingbeheer > ADR-etiketten > [Selecteer etiket] > Open ADR-etiket
+- **ADR-etiket toevoegen**: Wetgeving > ADR-wetgevingbeheer > ADR-etiketten > Groene plusje (+)
+
+---
+
+### Speciale Omschrijving
+- **Omschrijving bewerken**: Wetgeving > ADR-wetgevingbeheer > Speciale omschrijving > [Selecteer] > Bewerken
+- **Omschrijving toevoegen**: Wetgeving > ADR-wetgevingbeheer > Speciale omschrijving > Groene plusje (+)
+
+---
+
+### Stoffenbeschrijvingen
+- **Stoffenbeschrijving openen**: Wetgeving > ADR-wetgevingbeheer > Stoffenbeschrijvingen > [Selecteer] > Open stoffenbeschrijving
+- **Stoffenbeschrijving toevoegen**: Wetgeving > ADR-wetgevingbeheer > Stoffenbeschrijvingen > Groene plusje (+)
+
+---
+
+### Tunnelclassificaties
+- **Classificatie openen**: Wetgeving > ADR-wetgevingbeheer > Tunnelclassificaties > [Selecteer] > Open tunnelclassificatie
+- **Classificatie toevoegen**: Wetgeving > ADR-wetgevingbeheer > Tunnelclassificaties > Groene plusje (+)
+
+---
+
+### UN-Codes
+- **UN-code openen**: Wetgeving > ADR-wetgevingbeheer > UN-codes > [Selecteer code] > Open UN-code
+- **UN-code toevoegen**: Wetgeving > ADR-wetgevingbeheer > UN-codes > Groene plusje (+)
+
+---
+
+### Verpakkingsmethodes
+- **Verpakkingsmethode openen**: Wetgeving > ADR-wetgevingbeheer > Verpakkingsmethodes > [Selecteer methode] > Open verpakkingsmethode
+- **Verpakkingsmethode toevoegen**: Wetgeving > ADR-wetgevingbeheer > Verpakkingsmethodes > Groene plusje (+)
+
+---
+
+### EURAL-Codes
+- **EURAL-code openen**: Wetgeving > Codes > EURAL-Codes > [Selecteer code] > Open EURAL code
+- **EURAL-code toevoegen**: Wetgeving > Codes > EURAL-Codes > Groene plusje (+)
+- **EURAL-codes exporteren naar Excel**: Wetgeving > Codes > EURAL-Codes > Naar Excel exporteren
+
+---
+
+### Goederencodes
+- **Goederencode openen**: Wetgeving > Codes > Goederencodes > [Selecteer code] > Open Goederencode
+- **Goederencode verwijderen**: Wetgeving > Codes > Goederencodes > [Selecteer code] > Verwijderen
+
+---
+
+### Hazard & Protection
+- **Gevarenklasse openen**: Wetgeving > Codes > Hazard & Protection > [Selecteer categorie]
+- **Pictogram koppelen**: Wetgeving > Codes > Hazard & Protection > Connect Pictogram (SU)
+
+---
+
+### SBI codes
+- **SBI-code openen**: Wetgeving > Codes > SBI codes > [Selecteer code] > Open SBI categorie
+- **SBI-code vullen**: Wetgeving > Codes > SBI codes > Acties > Vul SBIcode
+- **SBI koppelen**: Wetgeving > Codes > SBI codes > Acties > Connect SBI
+- **SBI-code verwijderen**: Wetgeving > Codes > SBI codes > Acties > Remove
+
+---
+
+### Nuttige Toepassing
+- **Nuttige toepassing openen**: Wetgeving > Codes > Nuttige toepassing > [Selecteer toepassing] > Open nuttige toepassing
+- **Nuttige toepassing toevoegen**: Wetgeving > Codes > Nuttige toepassing > Groene plusje (+)
+
+---
+
+### Opmerkingscodes
+- **Opmerkingscode toevoegen**: Wetgeving > Codes > Opmerkingscodes > Groene plusje (+)
+- **Opmerkingscode bewerken**: Wetgeving > Codes > Opmerkingscodes > [Selecteer code] > Bewerken
+
+---
+
+### LMA Meldingen
+- **LMA melding bekijken**: Wetgeving > LMA-beheer > LMA Meldingen > [Selecteer melding] > Bekijk LMA melding
+- **LMA meldingen exporteren naar Excel**: Wetgeving > LMA-beheer > LMA Meldingen > Naar Excel exporteren
+
+---
+
+### LMA Melding Versturen
+- **LMA melding bekijken**: Wetgeving > LMA-beheer > LMA Melding Versturen > [Selecteer melding] > Bekijk LMA melding
+- **LMA melding verwijderen**: Wetgeving > LMA-beheer > LMA Melding Versturen > [Selecteer melding] > Verwijder LMA
+- **Nieuwe LMA genereren**: Wetgeving > LMA-beheer > LMA Melding Versturen > Genereer LMA
+- **LMA maand versturen**: Wetgeving > LMA-beheer > LMA Melding Versturen > Verstuur LMA Maand
+- **LMA maand verwijderen**: Wetgeving > LMA-beheer > LMA Melding Versturen > Verwijder LMA Maand
+- **Status wijzigen**: Wetgeving > LMA-beheer > LMA Melding Versturen > Wijzigen status
+- **Na-melding uitvoeren**: Wetgeving > LMA-beheer > LMA Melding Versturen > Na-Melding Controle
+- **LMA meldingen exporteren naar Excel**: Wetgeving > LMA-beheer > LMA Melding Versturen > Naar Excel exporteren
+
+---
+
+### Verwerkingsmethodes
+- **Verwerkingsmethode openen**: Wetgeving > LMA-beheer > Verwerkingsmethodes > [Selecteer methode] > Open verwerkingsmethode
+- **Verwerkingsmethode toevoegen**: Wetgeving > LMA-beheer > Verwerkingsmethodes > Groene plusje (+)

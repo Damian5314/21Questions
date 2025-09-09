@@ -1,0 +1,86 @@
+## Planningen - Plaatsingen
+
+### Lopende plaatsingen
+- **Plaatsing bekijken**: Planningen > Plaatsingen > Lopende plaatsingen > [Selecteer plaatsing]
+- **Plaatsing openen**: Planningen > Plaatsingen > Lopende plaatsingen > [Selecteer plaatsing] > Open
+- **Daghuren controleren**: Planningen > Plaatsingen > Lopende plaatsingen > Daghuren controleren
+- **Plan ophaalactie in**: Planningen > Plaatsingen > Lopende plaatsingen > Plan ophaalactie in
+- **Herbereken actief**: Planningen > Plaatsingen > Lopende plaatsingen > Herbereken Actief
+
+---
+
+### Historische plaatsingen
+- **Historische plaatsing bekijken**: Planningen > Plaatsingen > Historische plaatsingen > [Selecteer plaatsing]
+- **Historische plaatsing openen**: Planningen > Plaatsingen > Historische plaatsingen > [Selecteer plaatsing] > Open plaatsing
+
+---
+
+### Werkorders zonder (actieve) groep
+- **Werkorder bekijken**: Planningen > Plaatsingen > Werkorders zonder (actieve) groep > [Selecteer werkorder]
+- **Werkorder bewerken**: Planningen > Plaatsingen > Werkorders zonder (actieve) groep > [Selecteer werkorder] > Bewerken
+- **Werkorder verwijderen**: Planningen > Plaatsingen > Werkorders zonder (actieve) groep > [Selecteer werkorder] > Verwijderen
+
+---
+
+### Plaatsinggroep zonder eerste plaatsing
+- **Plaatsinggroep bekijken**: Planningen > Plaatsingen > Plaatsinggroep zonder eerste plaatsing > [Selecteer groep]
+- **Plaatsinggroep openen**: Planningen > Plaatsingen > Plaatsinggroep zonder eerste plaatsing > [Selecteer groep] > Open
+- **Herbereken actief**: Planningen > Plaatsingen > Plaatsinggroep zonder eerste plaatsing > Herbereken Actief
+
+---
+
+### Alle plaatsingen
+- **Plaatsing bekijken**: Planningen > Plaatsingen > Alle plaatsingen > [Selecteer plaatsing]
+- **Plaatsing openen**: Planningen > Plaatsingen > Alle plaatsingen > [Selecteer plaatsing] > Open plaatsing
+- **Plaatsinggroep openen**: Planningen > Plaatsingen > Alle plaatsingen > [Selecteer plaatsing] > Open PlaatsingGroep
+- **Groep maken**: Planningen > Plaatsingen > Alle plaatsingen > Maak Groep
+
+---
+
+### Plaatsingen zonder Groep
+- **Plaatsing bekijken**: Planningen > Plaatsingen > Plaatsingen zonder Groep > [Selecteer plaatsing]
+- **Plaatsing openen**: Planningen > Plaatsingen > Plaatsingen zonder Groep > [Selecteer plaatsing] > Open plaatsing
+- **Plaatsinggroep openen**: Planningen > Plaatsingen > Plaatsingen zonder Groep > [Selecteer plaatsing] > Open PlaatsingGroep
+- **Groep maken**: Planningen > Plaatsingen > Plaatsingen zonder Groep > Maak Groep
+
+---
+
+### Alle plaatsinggroepen
+- **Plaatsinggroep bekijken**: Planningen > Plaatsingen > Alle plaatsinggroepen > [Selecteer groep]
+- **Plaatsinggroep openen**: Planningen > Plaatsingen > Alle plaatsinggroepen > [Selecteer groep] > Open
+- **Plaatsinggroep verwijderen (SU)**: Planningen > Plaatsingen > Alle plaatsinggroepen > [Selecteer groep] > Verwijderen (SU)
+- **Daghuren controleren**: Planningen > Plaatsingen > Alle plaatsinggroepen > Daghuren controleren
+- **Plan ophaalactie in**: Planningen > Plaatsingen > Alle plaatsinggroepen > Plan ophaalactie in
+- **Herbereken actief**: Planningen > Plaatsingen > Alle plaatsinggroepen > Herbereken Actief
+
+---
+
+### Verpakkingstypes
+- **Verpakkingstype toevoegen**: Plaatsingen > Verpakkingsbeheer > Verpakkingstypes > Groene plusje (+)
+- **Verpakkingstype bekijken**: Plaatsingen > Verpakkingsbeheer > Verpakkingstypes > [Selecteer verpakkingstype]
+- **Verpakkingstype openen**: Plaatsingen > Verpakkingsbeheer > Verpakkingstypes > [Selecteer verpakkingstype] > Open verpakkingstype
+- **Verpakkingstypes exporteren naar Excel**: Plaatsingen > Verpakkingsbeheer > Verpakkingstypes > Naar Excel exporteren
+
+---
+
+### Verpakkingen
+- **Verpakking toevoegen**: Plaatsingen > Verpakkingsbeheer > Verpakkingen > Groene plusje (+)
+- **Verpakking bekijken**: Plaatsingen > Verpakkingsbeheer > Verpakkingen > [Selecteer verpakking]
+- **Verpakking openen**: Plaatsingen > Verpakkingsbeheer > Verpakkingen > [Selecteer verpakking] > Open verpakking
+- **Verpakking verwijderen**: Plaatsingen > Verpakkingsbeheer > Verpakkingen > [Selecteer verpakking] > Verwijderen
+
+---
+
+### Keuringen
+- **Keuring toevoegen**: Plaatsingen > Verpakkingsbeheer > Keuringen > Groene plusje (+)
+- **Keuring bekijken**: Plaatsingen > Verpakkingsbeheer > Keuringen > [Selecteer keuring]
+- **Keuring openen**: Plaatsingen > Verpakkingsbeheer > Keuringen > [Selecteer keuring] > Open keuring
+- **Keuring verwijderen**: Plaatsingen > Verpakkingsbeheer > Keuringen > [Selecteer keuring] > Verwijderen
+
+---
+
+### Sensolus trackers
+- **Tracker bekijken**: Plaatsingen > Verpakkingsbeheer > Sensolus trackers > [Selecteer tracker]
+- **Tracker openen**: Plaatsingen > Verpakkingsbeheer > Sensolus trackers > [Selecteer tracker] > Toon details
+- **Lijst verversen**: Plaatsingen > Verpakkingsbeheer > Sensolus trackers > Lijst verversen
+- **Filter resetten**: Plaatsingen > Verpakkingsbeheer > Sensolus trackers > Reset filter

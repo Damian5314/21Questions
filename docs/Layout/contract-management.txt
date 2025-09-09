@@ -1,6 +1,107 @@
 ## Contract Management
+- **Nieuw contract maken**: Contracten > Contracten > Groene plusje (+)
+- **Contract bewerken**: Contracten > Contracten > [Selecteer contract] > Bewerken
+- **Contract inzien**: Contracten > Contracten > [Selecteer contract]
 
-### Contracten
-- **Nieuw contract maken**: Contract > Contract > Groene plusje (+)
-- **Contract bewerken**: Contract > Contract > [Selecteer contract] > Bewerken
-- **Contract inzien**: Contract > Contract > [Selecteer contract]
+## Alle Contracten
+- **Nieuw contract toevoegen**: Contracten > Contracten > Alle contracten > Groene plusje (+)
+- **Contract bekijken**: Contracten > Contracten > Alle contracten > [Selecteer contract]
+- **Contract bewerken**: Contracten > Contracten > Alle contracten > [Selecteer contract] > Bewerken
+
+## Tonnage Afspraken
+- **Tonnage afspraak toevoegen**: Contracten > Contracten > Tonnage afspraken > Groene plusje (+)
+- **Tonnage afspraak bekijken**: Contracten > Contracten > Tonnage afspraken > [Selecteer afspraak]
+- **Tonnage afspraak openen**: Contracten > Contracten > Tonnage afspraken > [Selecteer afspraak] > Open tonnage afspraak
+- **Tonnage afspraak kopiëren**: Contracten > Contracten > Tonnage afspraken > [Selecteer afspraak] > Kopieer tonnage afspraak
+
+## Contractgroepen
+- **Contractgroep toevoegen**: Contracten > Contractgroepen > Groene plusje (+)
+- **Contractgroep bekijken**: Contracten > Contractgroepen > [Selecteer groep]
+- **Contractgroep openen**: Contracten > Contractgroepen > [Selecteer groep] > Open groep
+
+## Contractvoorwaarden - Algemene Voorwaarden
+- **Algemene voorwaarde toevoegen**: Contracten > Contractvoorwaarden > Algemene voorwaarden > Groene plusje (+)
+- **Algemene voorwaarde bekijken**: Contracten > Contractvoorwaarden > Algemene voorwaarden > [Selecteer item]
+- **Algemene voorwaarde openen**: Contracten > Contractvoorwaarden > Algemene voorwaarden > [Selecteer item] > Open algemene voorwaarde
+
+## Contractvoorwaarden - Offerte Voorwaarden
+- **Offerte voorwaarde toevoegen**: Contracten > Contractvoorwaarden > Offerte voorwaarden > Groene plusje (+)
+- **Offerte voorwaarde bekijken**: Contracten > Contractvoorwaarden > Offerte voorwaarden > [Selecteer item]
+- **Offerte voorwaarde openen**: Contracten > Contractvoorwaarden > Offerte voorwaarden > [Selecteer item] > Open offerte voorwaarde
+
+## Contractvoorwaarden - Overeenkomst Voorwaarden
+- **Overeenkomst voorwaarde toevoegen**: Contracten > Contractvoorwaarden > Overeenkomst voorwaarden > Groene plusje (+)
+- **Overeenkomst voorwaarde bekijken**: Contracten > Contractvoorwaarden > Overeenkomst voorwaarden > [Selecteer item]
+- **Overeenkomst voorwaarde openen**: Contracten > Contractvoorwaarden > Overeenkomst voorwaarden > [Selecteer item] > Open overeenkomst voorwaarde
+
+## Prijsindexering
+- **Prijsindexering toevoegen**: Contracten > Prijsindexering > Groene plusje (+)
+- **Prijsindexering bekijken**: Contracten > Prijsindexering > [Selecteer indexering]
+- **Prijsindexering openen**: Contracten > Prijsindexering > [Selecteer indexering] > Open prijsindexering
+- **Prijsindexering doorvoeren**: Contracten > Prijsindexering > [Selecteer indexering] > Doorvoeren
+- **Prijsindexering kopiëren**: Contracten > Prijsindexering > [Selecteer indexering] > Kopiëren
+- **Prijsindexering niet doorgevoerd (Superuser)**: Contracten > Prijsindexering > [Selecteer indexering] > Naar Niet Doorgevoerd (Superuser)
+- **Prijsindexering regel openen**: Contracten > Prijsindexering > [Selecteer indexering] > [Selecteer regel] > Open prijsindexering regel
+
+## Stamgegevens - Artikelen
+- **Artikel toevoegen**: Contracten > Stamgegevens > Artikelen > Groene plusje (+)
+- **Artikel bekijken**: Contracten > Stamgegevens > Artikelen > [Selecteer artikel]
+- **Artikel openen**: Contracten > Stamgegevens > Artikelen > [Selecteer artikel] > Open artikel
+
+## Stamgegevens - Artikelcombinaties
+- **Artikelcombinatie toevoegen**: Contracten > Stamgegevens > Artikelcombinaties > Groene plusje (+)
+- **Artikelcombinatie bekijken**: Contracten > Stamgegevens > Artikelcombinaties > [Selecteer combinatie]
+- **Artikelcombinatie openen**: Contracten > Stamgegevens > Artikelcombinaties > [Selecteer combinatie] > Open artikel combinatie
+
+## Stamgegevens - Toeslagen
+- **Toeslag toevoegen**: Contracten > Stamgegevens > Toeslagen > Groene plusje (+)
+- **Toeslag bekijken**: Contracten > Stamgegevens > Toeslagen > [Selecteer toeslag]
+- **Toeslag openen**: Contracten > Stamgegevens > Toeslagen > [Selecteer toeslag] > Open toeslag
+- **Toeslag verwijderen**: Contracten > Stamgegevens > Toeslagen > [Selecteer toeslag] > Verwijderen
+
+## Stamgegevens - Activiteiten
+- **Activiteit toevoegen**: Contracten > Stamgegevens > Activiteiten > Groene plusje (+)
+- **Activiteit bekijken**: Contracten > Stamgegevens > Activiteiten > [Selecteer activiteit]
+- **Activiteit openen**: Contracten > Stamgegevens > Activiteiten > [Selecteer activiteit] > Open activiteit
+
+## Stamgegevens - Categorieën
+- **Categorie toevoegen**: Contracten > Stamgegevens > Categorieën > Groene plusje (+)
+- **Categorie bekijken**: Contracten > Stamgegevens > Categorieën > [Selecteer categorie]
+- **Categorie openen**: Contracten > Stamgegevens > Categorieën > [Selecteer categorie] > Open categorie
+
+## Stamgegevens - Certificaten
+- **Certificaat toevoegen**: Contracten > Stamgegevens > Certificaten > Groene plusje (+)
+- **Certificaat bekijken**: Contracten > Stamgegevens > Certificaten > [Selecteer certificaat]
+- **Certificaat openen**: Contracten > Stamgegevens > Certificaten > [Selecteer certificaat] > Open certificaat
+
+## Stamgegevens - Certificaattype
+- **Certificaattype toevoegen**: Contracten > Stamgegevens > Certificaattype > Groene plusje (+)
+- **Certificaattype bekijken**: Contracten > Stamgegevens > Certificaattype > [Selecteer type]
+- **Certificaattype openen**: Contracten > Stamgegevens > Certificaattype > [Selecteer type] > Open certificaattype
+
+## Stamgegevens - Certificaatcodes
+- **Certificaatcode toevoegen**: Contracten > Stamgegevens > Certificaatcodes > Groene plusje (+)
+- **Certificaatcode bekijken**: Contracten > Stamgegevens > Certificaatcodes > [Selecteer code]
+- **Certificaatcode openen**: Contracten > Stamgegevens > Certificaatcodes > [Selecteer code] > Open certificaatcode
+
+## Stamgegevens - Contractlooptijd
+- **Contractlooptijd toevoegen**: Contracten > Stamgegevens > Contractlooptijd > Groene plusje (+)
+- **Contractlooptijd bekijken**: Contracten > Stamgegevens > Contractlooptijd > [Selecteer looptijd]
+- **Contractlooptijd openen**: Contracten > Stamgegevens > Contractlooptijd > [Selecteer looptijd] > Open contractlooptijd
+
+## Stamgegevens - Contracttypes
+- **Contracttype toevoegen**: Contracten > Stamgegevens > Contracttypes > Groene plusje (+)
+- **Contracttype bekijken**: Contracten > Stamgegevens > Contracttypes > [Selecteer type]
+- **Contracttype openen**: Contracten > Stamgegevens > Contracttypes > [Selecteer type] > Open contracttype
+
+## Stamgegevens - Frequentie
+- **Frequentie toevoegen**: Contracten > Stamgegevens > Frequentie > Groene plusje (+)
+- **Frequentie bekijken**: Contracten > Stamgegevens > Frequentie > [Selecteer frequentie]
+- **Frequentie openen**: Contracten > Stamgegevens > Frequentie > [Selecteer frequentie] > Open frequentie
+
+## Stamgegevens - Huurvrije dagen
+- **Huurvrije dag toevoegen**: Contracten > Stamgegevens > Huurvrije dagen > Groene plusje (+)
+- **Huurvrije dag bekijken**: Contracten > Stamgegevens > Huurvrije dagen > [Selecteer item]
+- **Huurvrije dag openen**: Contracten > Stamgegevens > Huurvrije dagen > [Selecteer item] > Open
+- **Huurvrije dag verwijderen**: Contracten > Stamgegevens > Huurvrije dagen > [Selecteer item] > Verwijderen
+

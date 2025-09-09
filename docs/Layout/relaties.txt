@@ -2,18 +2,18 @@
 
 ### Klanten
 - **Klanten toevoegen**: Relaties > Klanten > Groene plusje (+)
-- **Klant bekijken**: Relaties > Klanten > [Selecteer klant]
-- **Klant bewerken**: Relaties > Klanten > [Selecteer klant] > Bewerken
+- **Klant bekijken**: Relaties > Klanten > [Selecteer klant] (dubbel klikken)
+- **Klant bewerken**: Relaties > Klanten > [Selecteer klant] > Open Relatie
 
 ### Prospects
 - **Prospect toevoegen**: Relaties > Prospects > Groene plusje (+)
-- **Prospect bekijken**: Relaties > Prospects > [Selecteer prospect]
-- **Prospect bewerken**: Relaties > Prospects > [Selecteer prospect] > Bewerken
+- **Prospect bekijken**: Relaties > Prospects > [Selecteer prospect] (dubbel klikken)
+- **Prospect bewerken**: Relaties > Prospects > [Selecteer prospect] > Open Relatie
 
 ### Verloren relaties
 - **Verloren relatie toevoegen**: Relaties > Verloren > Groene plusje (+)
-- **Verloren relatie bekijken**: Relaties > Verloren > [Selecteer relatie]
-- **Verloren relatie bewerken**: Relaties > Verloren > [Selecteer relatie] > Bewerken
+- **Verloren relatie bekijken**: Relaties > Verloren > [Selecteer relatie] (dubbel klikken)
+- **Verloren relatie bewerken**: Relaties > Verloren > [Selecteer relatie] > Open Relatie
 
 ### Contactpersonen
 - **Contactpersoon toevoegen**: Relaties > Contactpersonen > Groene plusje (+)

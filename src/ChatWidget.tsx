@@ -51,7 +51,8 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
         primary: '#02b875',
         border: '#404040',
         userBubble: '#02b875',
-        botBubble: '#2d2d2d'
+        botBubble: '#404040',
+        avatarBg: '#555555'
       }
     : {
         bg: '#ffffff',
@@ -61,7 +62,8 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
         primary: '#02b875',
         border: '#e1e5e9',
         userBubble: '#02b875',
-        botBubble: '#f1f3f4'
+        botBubble: '#f1f3f4',
+        avatarBg: '#e1e5e9'
       };
 
   const floatingButtonStyle: React.CSSProperties = {
@@ -107,7 +109,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
     overflowY: 'auto',
     display: 'flex',
     flexDirection: 'column',
-    gap: '12px'
+    gap: '16px'
   };
 
   const inputContainerStyle: React.CSSProperties = {
@@ -139,23 +141,62 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
     fontWeight: '500'
   };
 
+  // Nieuwe stijlen voor betere onderscheiding
+  const messageWrapperStyle = (sender: 'user' | 'bot'): React.CSSProperties => ({
+    display: 'flex',
+    flexDirection: sender === 'user' ? 'row-reverse' : 'row',
+    gap: '8px',
+    alignItems: 'flex-end',
+    marginBottom: '4px'
+  });
+
+  const avatarStyle = (sender: 'user' | 'bot'): React.CSSProperties => ({
+    width: '32px',
+    height: '32px',
+    borderRadius: '50%',
+    backgroundColor: sender === 'user' ? themeColors.primary : themeColors.avatarBg,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '16px',
+    flexShrink: 0,
+    color: sender === 'user' ? 'white' : themeColors.text
+  });
+
+  const messageContentStyle = (sender: 'user' | 'bot'): React.CSSProperties => ({
+    maxWidth: '250px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '4px'
+  });
+
+  const messageLabelStyle = (sender: 'user' | 'bot'): React.CSSProperties => ({
+    fontSize: '11px',
+    color: themeColors.textSecondary,
+    fontWeight: '500',
+    marginLeft: sender === 'user' ? '0' : '4px',
+    marginRight: sender === 'user' ? '4px' : '0',
+    textAlign: sender === 'user' ? 'right' : 'left'
+  });
+
   const messageStyle = (sender: 'user' | 'bot'): React.CSSProperties => ({
     padding: '12px 16px',
-    borderRadius: '18px',
-    maxWidth: '80%',
-    alignSelf: sender === 'user' ? 'flex-end' : 'flex-start',
+    borderRadius: sender === 'user' ? '18px 18px 4px 18px' : '18px 18px 18px 4px',
     backgroundColor: sender === 'user' ? themeColors.userBubble : themeColors.botBubble,
     color: sender === 'user' ? 'white' : themeColors.text,
     fontSize: '14px',
     lineHeight: '1.4',
-    wordBreak: 'break-word'
+    wordBreak: 'break-word',
+    boxShadow: '0 1px 2px rgba(0, 0, 0, 0.1)',
+    position: 'relative'
   });
 
   const sourcesStyle: React.CSSProperties = {
     fontSize: '12px',
     color: themeColors.textSecondary,
-    marginTop: '8px',
-    fontStyle: 'italic'
+    marginTop: '4px',
+    fontStyle: 'italic',
+    marginLeft: '8px'
   };
 
   const closeButtonStyle: React.CSSProperties = {
@@ -165,6 +206,14 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
     cursor: 'pointer',
     fontSize: '18px',
     padding: '4px'
+  };
+
+  const getAvatar = (sender: 'user' | 'bot') => {
+    return sender === 'user' ? '👤' : '🤖';
+  };
+
+  const getSenderLabel = (sender: 'user' | 'bot') => {
+    return sender === 'user' ? 'Jij' : '21Questions';
   };
 
   return (
@@ -209,21 +258,33 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
             )}
             
             {messages.map((message) => (
-              <div key={message.id}>
-                <div style={messageStyle(message.sender)}>
-                  {message.text}
-                </div>
-                {message.sources && message.sources.length > 0 && (
-                  <div style={sourcesStyle}>
-                    Bronnen: {message.sources.join(', ')}
+              <div key={message.id} style={messageWrapperStyle(message.sender)}>
+                <div style={messageContentStyle(message.sender)}>
+                  <div style={messageLabelStyle(message.sender)}>
+                    {getSenderLabel(message.sender)}
                   </div>
-                )}
+                  <div style={messageStyle(message.sender)}>
+                    {message.text}
+                  </div>
+                  {message.sources && message.sources.length > 0 && (
+                    <div style={sourcesStyle}>
+                      Bronnen: {message.sources.join(', ')}
+                    </div>
+                  )}
+                </div>
               </div>
             ))}
             
             {isLoading && (
-              <div style={messageStyle('bot')}>
-                <span style={{ opacity: 0.7 }}>Aan het denken...</span>
+              <div style={messageWrapperStyle('bot')}>
+                <div style={messageContentStyle('bot')}>
+                  <div style={messageLabelStyle('bot')}>
+                    21Questions
+                  </div>
+                  <div style={messageStyle('bot')}>
+                    <span style={{ opacity: 0.7 }}>Aan het denken...</span>
+                  </div>
+                </div>
               </div>
             )}
             

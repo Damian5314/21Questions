@@ -8,6 +8,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
   position = 'bottom-right'
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const { messages, isLoading, sendMessage } = useChat(apiUrl);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -19,6 +20,22 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  const handleOpenChat = () => {
+    setShouldRender(true);
+    // Force a reflow before starting animation
+    requestAnimationFrame(() => {
+      setIsOpen(true);
+    });
+  };
+
+  const handleCloseChat = () => {
+    setIsOpen(false);
+    // Remove from DOM after animation completes
+    setTimeout(() => {
+      setShouldRender(false);
+    }, 400);
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -77,7 +94,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
     alignItems: 'center',
     justifyContent: 'center',
     boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
-    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+    transition: 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
     color: 'white',
     fontSize: '24px'
   };
@@ -87,11 +104,19 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
     height: '500px',
     backgroundColor: themeColors.bg,
     borderRadius: '12px',
-    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.12)',
+    boxShadow: isOpen ? '0 20px 60px rgba(0, 0, 0, 0.2)' : '0 8px 32px rgba(0, 0, 0, 0.12)',
     border: `1px solid ${themeColors.border}`,
     display: 'flex',
     flexDirection: 'column',
-    overflow: 'hidden'
+    overflow: 'hidden',
+    transform: isOpen 
+      ? 'scale(1) translateY(0px)' 
+      : 'scale(0.7) translateY(30px)',
+    opacity: isOpen ? 1 : 0,
+    transition: 'all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+    transformOrigin: position.includes('right') ? 'bottom right' : 'bottom left',
+    visibility: shouldRender ? 'visible' : 'hidden',
+    pointerEvents: isOpen ? 'auto' : 'none'
   };
 
   const headerStyle: React.CSSProperties = {
@@ -218,28 +243,30 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
 
   return (
     <div style={getPositionStyles()}>
-      {!isOpen ? (
+      {!shouldRender && (
         <button
           style={floatingButtonStyle}
-          onClick={() => setIsOpen(true)}
+          onClick={handleOpenChat}
           onMouseEnter={(e) => {
-            e.currentTarget.style.transform = 'scale(1.1)';
-            e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.2)';
+            e.currentTarget.style.transform = 'scale(1.15) rotate(-5deg)';
+            e.currentTarget.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.25)';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.transform = 'scale(1)';
+            e.currentTarget.style.transform = 'scale(1) rotate(0deg)';
             e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
           }}
         >
           💬
         </button>
-      ) : (
+      )}
+      
+      {shouldRender && (
         <div style={chatPanelStyle}>
           <div style={headerStyle}>
             <h3 style={{ margin: 0, fontSize: '16px' }}>21Questions</h3>
             <button
               style={closeButtonStyle}
-              onClick={() => setIsOpen(false)}
+              onClick={handleCloseChat}
             >
               ✕
             </button>

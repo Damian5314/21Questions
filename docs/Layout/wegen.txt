@@ -1,0 +1,70 @@
+
+## Wegen
+
+### Weegbrug
+- **Weging openen**: Wegen > Weegbrug > [tab zoals Ingewogen] > [selecteer weegbon] > Open weging
+- **Nieuwe weging toevoegen**: Wegen > Weegbrug > [tab zoals Ingewogen] > Groene plusje (+)
+- **Weeging zoeken**: Wegen > Weegbrug > [tab] > Vul filtervelden > Zoeken
+
+### Analyses
+- **Analyse toevoegen**: Wegen > Analyses > Groene plusje (+)
+- **Analyse bewerken**: Wegen > Analyses > [selecteer analyse] > Bewerken
+- **Analyse openen**: Wegen > Analyses > [selecteer analyse] > Open
+
+### EBA & Aankondigingen
+- **EBA-bericht openen**: Wegen > EBA & Aankondigingen > [selecteer bericht] > Open
+- **EBA-bericht verwijderen**: Wegen > EBA & Aankondigingen > [selecteer bericht] > Verwijderen
+- **Externe weging openen/verzenden**: Wegen > EBA & Aankondigingen > Externe Wegingen > [selecteer weging] > Open weging / Send
+
+### Gevaarlijk Afval
+
+#### Wegen
+- **Weging bewerken**: Wegen > Gevaarlijk Afval > Wegen > [selecteer weging] > Bewerken
+- **Afvoerlijst maken**: Wegen > Gevaarlijk Afval > Wegen > [selecteer weging] > Maak Afvoerlijst
+- **Voorraadlocatie aanpassen**: Wegen > Gevaarlijk Afval > Wegen > [selecteer weging] > Voorraadlocatie aanpassen
+- **Exporteren naar CSV**: Wegen > Gevaarlijk Afval > Wegen > Export naar CSV
+- **Weging toevoegen**: Wegen > Gevaarlijk Afval > Wegen > Groene plusje (+)
+
+#### Afvoerlijst
+- **Afvoerlijst bewerken**: Wegen > Gevaarlijk Afval > Afvoerlijst > [selecteer lijst] > Bewerken
+- **Afvoerlijst toevoegen**: Wegen > Gevaarlijk Afval > Afvoerlijst > Groene plusje (+)
+
+#### Voorraad
+- **Voorraadlocatie bewerken**: Wegen > Gevaarlijk Afval > Voorraad > Voorraadlocaties > [selecteer locatie] > Bewerken
+- **Overboeking aanmaken**: Wegen > Gevaarlijk Afval > Voorraad > Voorraadlocaties > [selecteer locatie] > Overboeking aanmaken
+- **Voorraadcorrectie aanmaken**: Wegen > Gevaarlijk Afval > Voorraad > Voorraadlocaties > [selecteer locatie] > Voorraadcorrectie aanmaken
+- **Massabalans bekijken**: Wegen > Gevaarlijk Afval > Voorraad > Voorraadlocaties > [selecteer locatie] > Massabalans
+- **Voorraadlocatie toevoegen**: Wegen > Gevaarlijk Afval > Voorraad > Voorraadlocaties > Groene plusje (+)
+
+#### Overige tabs
+- **Voorraadbeheer**: overzicht van verzamelgroepen en locaties met opties om te openen en toe te voegen.
+- **Afvoerlijst exporteren** en **Voorraad uitvragen** zijn aanwezig maar niet nader onderzocht.
+
+### Import (Externe) Gewichten
+- **Externe weging bewerken**: Wegen > Import (Externe) Gewichten > Import Externe wegingen > [selecteer weging] > Bewerken
+- **Externe weging verwijderen**: Wegen > Import (Externe) Gewichten > Import Externe wegingen > [selecteer weging] > Verwijderen
+- **Externe weging uploaden**: Wegen > Import (Externe) Gewichten > Externe Wegingen Uploaden > Bladeren > Importeer bestand
+- **Koppel aan planning**: Wegen > Import (Externe) Gewichten > Externe Wegingen Uploaden > Koppel aan planning
+- **Verwijder onafgehandeld/lege lijst**: Wegen > Import (Externe) Gewichten > Externe Wegingen Uploaden > Verwijder onafgehandeld / Maak lijst leeg
+- **Relatie-instelling bewerken**: Wegen > Import (Externe) Gewichten > Weegschaal instellingen > [selecteer relatie] > Bewerken
+- **Relatie-instelling toevoegen**: Wegen > Import (Externe) Gewichten > Weegschaal instellingen > Groene plusje (+)
+
+### Voorraadbeheer
+- **Voorraadlocatie bewerken**: Wegen > Voorraadbeheer > Voorraadlocaties > [selecteer locatie] > Bewerken
+- **Overboeking aanmaken**: Wegen > Voorraadbeheer > Voorraadlocaties > [selecteer locatie] > Overboeking aanmaken
+- **Voorraadcorrectie aanmaken**: Wegen > Voorraadbeheer > Voorraadlocaties > [selecteer locatie] > Voorraadcorrectie aanmaken
+- **Massabalans**: Wegen > Voorraadbeheer > Voorraadlocaties > [selecteer locatie] > Massabalans
+- **Voorraadlocatie toevoegen**: Wegen > Voorraadbeheer > Voorraadlocaties > Groene plusje (+)
+- **Verzamelgroepen en Verzamellocaties**: openen of toevoegen via de respectieve tabbladen.
+
+### Weegtemplates
+- **Template openen**: Wegen > Weegtemplate > [selecteer template] > Open Template
+- **Template verwijderen**: Wegen > Weegtemplate > [selecteer template] > Verwijderen (SU)
+- **Template toevoegen**: Wegen > Weegtemplate > Groene plusje (+)
+
+### Afvalregistraties
+- **Afvalregistratie openen**: Wegen > Afvalregistraties > Verzamelcontainers > [selecteer registratie] > Open
+- **Afvalregistratie exporteren naar CSV**: Wegen > Afvalregistraties > Verzamelcontainers > Export to CSV
+- **Afvalregistraties genereren (SU)**: Wegen > Afvalregistraties > Verzamelcontainers > SU – Maak 20 Afvalregistraties aan
+- **Relatie openen**: Wegen > Afvalregistraties > Verzamelcontainers > [selecteer registratie] > Open Relatie
+- **Nieuwe afvalregistratie toevoegen**: Wegen > Afvalregistraties > Verzamelcontainers > Groene plusje (+)

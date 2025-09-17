@@ -67,7 +67,8 @@ const searchDocuments = (query) => {
     'contract': ['contracten', 'overeenkomst', 'overeenkomsten'],
     'afvalstroom': ['afvalstromen', 'afvalstroommen', 'afval'],
     'personeel': ['medewerker', 'medewerkers', 'werknemers'],
-    'planning': ['plannen', 'plannings', 'inplannen']
+    'planning': ['plannen', 'plannings', 'inplannen'],
+    'plaatsing': ['plaatsingen', 'historische plaatsingen', 'lopende plaatsingen']
   };
   
   // Expand query with synonyms
@@ -97,14 +98,16 @@ const searchDocuments = (query) => {
   if (isNavigationQuery) {
     const queryPriorities = {
       'klant': 'Layout/relaties.txt',
-      'relatie': 'Layout/relaties.txt', 
+      'relatie': 'Layout/relaties.txt',
       'contract': 'Layout/contract-management.txt',
       'personeel': 'Layout/personeel.txt',
       'planning': 'Layout/planningen.txt',
+      'plaatsing': 'Layout/plaatsingen.txt',
       'order': 'Layout/orders.txt',
       'factuur': 'Layout/facturatie.txt',
       'wetgeving': 'Layout/wetgeving.txt',
-      'afvalstroom': 'Layout/wetgeving.txt'
+      'afvalstroom': 'Layout/wetgeving.txt',
+      'beheer': 'Layout/beheer.txt'
     };
     
     // Find the most relevant Layout file

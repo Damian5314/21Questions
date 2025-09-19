@@ -7,7 +7,8 @@
       "Read(/C:\\Users\\thoma\\Documents\\21Questions\\21Questions\\chatbot/**)",
       "Read(/C:\\Users\\thoma\\Documents\\21Questions\\21Questions\\src/**)",
       "Read(/C:\\Users\\thoma\\Documents\\21Questions\\21Questions\\docs/**)",
-      "Bash(timeout 10s npm start)"
+      "Bash(timeout 10s npm start)",
+      "Bash(cd:*)"
     ],
     "deny": [],
     "ask": []

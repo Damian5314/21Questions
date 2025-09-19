@@ -1,0 +1,83 @@
+{
+  "summary": {
+    "groq": null,
+    "gemini": null,
+    "totalTests": 3,
+    "timestamp": "2025-09-17T14:04:00.460Z"
+  },
+  "detailedResults": [
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 1",
+      "prompt": "Hallo, hoe gaat het?",
+      "response": null,
+      "responseTime": 107,
+      "tokenInfo": {},
+      "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+      "timestamp": "2025-09-17T14:03:57.204Z",
+      "responseLength": 0,
+      "success": false
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 1",
+      "prompt": "Hallo, hoe gaat het?",
+      "response": null,
+      "responseTime": 107,
+      "tokenInfo": {},
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+      "timestamp": "2025-09-17T14:03:57.312Z",
+      "responseLength": 0,
+      "success": false
+    },
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 2",
+      "prompt": "Wat doet 21Qubz?",
+      "response": null,
+      "responseTime": 34,
+      "tokenInfo": {},
+      "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+      "timestamp": "2025-09-17T14:03:58.348Z",
+      "responseLength": 0,
+      "success": false
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 2",
+      "prompt": "Wat doet 21Qubz?",
+      "response": null,
+      "responseTime": 31,
+      "tokenInfo": {},
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+      "timestamp": "2025-09-17T14:03:58.379Z",
+      "responseLength": 0,
+      "success": false
+    },
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 3",
+      "prompt": "Leg uit hoe afvalscheiding werkt bij particulieren.",
+      "response": null,
+      "responseTime": 44,
+      "tokenInfo": {},
+      "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+      "timestamp": "2025-09-17T14:03:59.424Z",
+      "responseLength": 0,
+      "success": false
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 3",
+      "prompt": "Leg uit hoe afvalscheiding werkt bij particulieren.",
+      "response": null,
+      "responseTime": 33,
+      "tokenInfo": {},
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+      "timestamp": "2025-09-17T14:03:59.457Z",
+      "responseLength": 0,
+      "success": false
+    }
+  ],
+  "generatedAt": "2025-09-17T14:04:00.460Z"
+}

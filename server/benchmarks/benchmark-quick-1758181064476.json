@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "groq": {
+      "count": 3,
+      "avgResponseTime": 673.6666666666666,
+      "minResponseTime": 249,
+      "maxResponseTime": 1479,
+      "avgResponseLength": 782.6666666666666,
+      "totalTokens": 826,
+      "avgTokensPerRequest": 275.3333333333333,
+      "successRate": 1
+    },
+    "gemini": {
+      "count": 3,
+      "avgResponseTime": 9229.666666666666,
+      "minResponseTime": 5720,
+      "maxResponseTime": 12866,
+      "avgResponseLength": 1288,
+      "totalTokens": 1033,
+      "avgTokensPerRequest": 344.3333333333333,
+      "successRate": 1
+    },
+    "totalTests": 3,
+    "timestamp": "2025-09-18T07:37:44.477Z"
+  },
+  "detailedResults": [
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 1",
+      "prompt": "Hallo, hoe gaat het?",
+      "response": "Hallo, gaat het goed met je? Ik ben een chatbot, dus ik ben hier om je te helpen en te praten als je maar wilt. Wat kan ik voor je doen vandaag?",
+      "responseTime": 293,
+      "tokenInfo": {
+        "promptTokens": 41,
+        "completionTokens": 43,
+        "totalTokens": 84
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:12.056Z",
+      "responseLength": 144,
+      "success": true
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 1",
+      "prompt": "Hallo, hoe gaat het?",
+      "response": "Het gaat goed, dank je!  Hoe gaat het met jou?\n",
+      "responseTime": 9103,
+      "tokenInfo": {
+        "promptTokens": 6,
+        "completionTokens": 15,
+        "totalTokens": 21
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:21.159Z",
+      "responseLength": 47,
+      "success": true
+    },
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 2",
+      "prompt": "Wat doet 21Qubz?",
+      "response": "Ik heb geen informatie over 21Qubz. Als je meer informatie over het kan geven, kan ik je misschien beter helpen.",
+      "responseTime": 249,
+      "tokenInfo": {
+        "promptTokens": 44,
+        "completionTokens": 33,
+        "totalTokens": 77
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:22.409Z",
+      "responseLength": 112,
+      "success": true
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 2",
+      "prompt": "Wat doet 21Qubz?",
+      "response": "21Qubz is een platform dat zich richt op **het ontwikkelen en trainen van kwantumcomputers en het bouwen van kwantumalgoritmen**.  Ze doen dit door middel van:\n\n* **Een cloud-gebaseerd kwantumcomputersimulatie platform:**  Dit stelt gebruikers in staat om kwantumalgoritmen te ontwikkelen en te testen zonder fysieke toegang tot een kwantumcomputer nodig te hebben.  Dit is essentieel, omdat echte kwantumcomputers nog steeds schaars en duur zijn.\n\n* **Educatieve resources:** 21Qubz biedt leermiddelen en tutorials om mensen te leren over kwantumcomputing en hoe ze hun platform kunnen gebruiken.\n\n* **Een community:**  Ze bouwen een community op van kwantumcomputer-enthousiasten, onderzoekers en ontwikkelaars om samen te werken en kennis te delen.\n\nKortom, 21Qubz maakt kwantumcomputing toegankelijker door een gebruiksvriendelijk platform te bieden voor simulatie, educatie en samenwerking.  Het is een belangrijke stap om de ontwikkeling van kwantumtechnologie te versnellen.\n",
+      "responseTime": 12866,
+      "tokenInfo": {
+        "promptTokens": 9,
+        "completionTokens": 235,
+        "totalTokens": 244
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:35.275Z",
+      "responseLength": 982,
+      "success": true
+    },
+    {
+      "provider": "groq",
+      "testName": "Quick Speed Test 3",
+      "prompt": "Leg uit hoe afvalscheiding werkt bij particulieren.",
+      "response": "Afvalscheiding bij particulieren is een belangrijk onderdeel van een duurzame leefstijl. Hieronder vind je een uitleg over hoe het werkt:\n\n**De basis van afvalscheiding:**\n\nAfvalscheiding is het scheiden van afval in verschillende categorieën, zodat het gemakkelijker kan worden afgevoerd en verwerkt. Bij particulieren wordt afval in drie categorieën gescheiden:\n\n1. **Restafval**: dit is afval dat niet kan worden gerecycled of verwerkt, zoals papier, karton, glasscherven, plastic, metalen en restanten van voedsel.\n2. **Organisch afval**: dit is afval dat kan worden verwerkt door middel van compostering, zoals fruit, groente, brood, aardappelschillen en dierlijke resten.\n3. **Recyclaat**: dit is afval dat kan worden gerecycled, zoals papier, karton, glas, plastic en metaal.\n\n**Hoe werkt afvalscheiding bij particulieren?**\n\n1. **Afvalscheiding in de huishouding**: bij particulieren wordt afval in de huishouding gescheiden in drie bakken of containers:\n * Een bak voor restafval (zwarte bak)\n * Een bak voor organisch afval (groene bak)\n * Een bak voor recyclaat (blauwe bak)\n2. **Afvoer van afval**: de afvalbakken worden op een bepaalde dag per week afgevoerd door de gemeente of een afvalverwerker.\n3. **Verwerking van afval**: het afgevoerde afval wordt verwerkt door middel van compostering, recycling of afvalverbranding.\n\n**Tips voor particulieren om afvalscheiding te verbeteren:**\n\n1. **Gebruik afvalscheiding in de huishouding**: schei afval in de huishouding in de drie categorieën: restafval, organisch afval en recyclaat.\n2. **Gebruik afvalbakken**: gebruik afvalbakken in de huishouding om afval te scheiden.\n3. **Laat afval niet achter**: laat afval niet achter op straat of in de buurt, maar afvoer het op de afgesproken dagen.\n4. **Verwerk afval zelf**: probeer afval zelf te verwerken, zoals composteren of recyclen.\n5. **Informeer je over afvalscheiding**: informeer je over de regels en procedures voor afvalscheiding in jouw gemeente.\n\nDoor afvalscheiding bij particulieren te verbeteren, kunnen we bijdragen aan een duurzamere leefstijl en een betere omgeving.",
+      "responseTime": 1479,
+      "tokenInfo": {
+        "promptTokens": 48,
+        "completionTokens": 617,
+        "totalTokens": 665
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:37.754Z",
+      "responseLength": 2092,
+      "success": true
+    },
+    {
+      "provider": "gemini",
+      "testName": "Quick Speed Test 3",
+      "prompt": "Leg uit hoe afvalscheiding werkt bij particulieren.",
+      "response": "Afvalscheiding bij particulieren werkt door huishoudelijk afval te sorteren in verschillende afvalstromen, die vervolgens apart worden ingezameld en verwerkt.  Het doel is om grondstoffen te recyclen en de hoeveelheid afval dat naar stortplaatsen gaat te minimaliseren.  De precieze methode verschilt per gemeente, maar de algemene principes zijn gelijk:\n\n**De meest voorkomende afvalstromen zijn:**\n\n* **Restafval:** Dit is afval dat niet kan worden gerecycled of gecomposteerd.  Voorbeelden zijn luiers, gebroken glas, etensresten (in veel gemeenten niet meer, zie GFT),  vuilniszakken, etc.  Dit afval wordt vaak verbrand voor energieopwekking of gestort.\n\n* **GFT-afval (Groente, Fruit en Tuin):**  Dit omvat organisch afval zoals groente- en fruitafval,  koffieprut, theezakjes (zonder nietjes!), eierschalen,  tuin- en parkafval.  Dit afval wordt gecomposteerd en kan worden gebruikt als bodemverbeteraar.  Sommige gemeenten vereisen dat dit afval in speciale bruine containers of zakken wordt gedaan.\n\n* **PMD (Plastic, Metaal, Drankkartons):**  Dit zijn plastic verpakkingen (met de groene punt), metalen verpakkingen (blikjes, aluminiumfolie) en drankkartons.  Dit afval wordt gesorteerd en gerecycled.  Let op: niet alle plastic is PMD!  Controleer de markering op het plastic.\n\n* **Papier en Karton:** Dit omvat kranten, tijdschriften, folders, kartonnen dozen, etc.  Dit wordt ingezameld en gerecycled tot nieuw papier en karton.\n\n* **Glas:**  Glasflessen en -potten worden apart ingezameld en gerecycled.  Meestal via glasbakken op straat of op aangewezen locaties.\n\n* **Textiel:**  In sommige gemeenten is er aparte inzameling voor textiel (kleding, schoenen, textiel).  Dit wordt hergebruikt of gerecycled.\n\n* **Batterijen en klein chemisch afval (KCA):** Deze gevaarlijke stoffen worden apart ingezameld via speciale inzamelpunten of containers, omdat ze niet in de reguliere afvalstromen thuishoren.  Denk aan batterijen, spaarlampen, verf, etc.\n\n\n**Hoe het in de praktijk werkt:**\n\n* **Verschillende containers of zakken:**  Huishoudens krijgen meestal verschillende containers of zakken voor de verschillende afvalstromen.  De kleuren en/of markeringen variëren per gemeente.\n\n* **Ophaal schema:**  De gemeente heeft een ophaalschema voor de verschillende afvalstromen.  Bewoners moeten hun afval op de juiste dag aan de weg zetten.\n\n* **Afvalwijzer of app:**  Veel gemeenten bieden online tools (een afvalwijzer of een app) aan om te controleren welk afval op welke dag wordt opgehaald, en hoe het correct moet worden gesorteerd.\n\n* **Boetes:**  Het onjuist scheiden van afval kan leiden tot boetes.\n\n\nHet is cruciaal om de lokale regels en richtlijnen van je gemeente te volgen, aangezien deze kunnen verschillen.  Raadpleeg de website van je gemeente voor specifieke informatie over afvalscheiding in jouw regio.\n",
+      "responseTime": 5720,
+      "tokenInfo": {
+        "promptTokens": 12,
+        "completionTokens": 756,
+        "totalTokens": 768
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:37:43.474Z",
+      "responseLength": 2835,
+      "success": true
+    }
+  ],
+  "generatedAt": "2025-09-18T07:37:44.477Z"
+}

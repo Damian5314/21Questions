@@ -1,0 +1,153 @@
+{
+  "summary": {
+    "groq": {
+      "count": 3,
+      "avgResponseTime": 631.6666666666666,
+      "minResponseTime": 472,
+      "maxResponseTime": 744,
+      "avgResponseLength": 733.3333333333334,
+      "totalTokens": 2272,
+      "avgTokensPerRequest": 757.3333333333334,
+      "successRate": 1
+    },
+    "gemini": {
+      "count": 3,
+      "avgResponseTime": 2597.6666666666665,
+      "minResponseTime": 1738,
+      "maxResponseTime": 3180,
+      "avgResponseLength": 1000,
+      "totalTokens": 2133,
+      "avgTokensPerRequest": 711,
+      "successRate": 1
+    },
+    "totalTests": 3,
+    "timestamp": "2025-09-18T07:41:53.205Z"
+  },
+  "detailedResults": [
+    {
+      "provider": "groq",
+      "testName": "21Qubz Bedrijfsinfo",
+      "prompt": "Wat doet 21Qubz en welke diensten bieden jullie aan?",
+      "response": "Hallo! Ik ben uw AI-assistent voor 21Qubz. Ik help u graag met vragen over onze diensten en processen.\n\n21Qubz biedt verschillende diensten aan, waaronder:\n\n- Contractbeheer: Wij bieden een compleet contractbeheersysteem aan, waarin u alle contracten kunt beheren, van het aangaan tot het aflopen van contracten.\n- Relatiesbeheer: Ons systeem biedt een krachtig relatiesbeheersysteem, waarin u alle contacten kunt beheren, van klanten tot leveranciers.\n- Bestellingenbeheer: Wij bieden een efficiënt bestellingenbeheersysteem aan, waarin u alle bestellingen kunt beheren, van het plaatsen tot het afhandelen van bestellingen.\n- Informatiebeveiliging: Ons systeem biedt een veilige omgeving aan, waarin u alle informatie kunt beheren, van documenten tot databases.\n\nBen je geïnteresseerd in meer informatie over onze diensten of processen?",
+      "responseTime": 744,
+      "tokenInfo": {
+        "promptTokens": 270,
+        "completionTokens": 257,
+        "totalTokens": 527
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:41.255Z",
+      "responseLength": 838,
+      "success": true,
+      "relevantDocs": [],
+      "docsFound": 0
+    },
+    {
+      "provider": "gemini",
+      "testName": "21Qubz Bedrijfsinfo",
+      "prompt": "Wat doet 21Qubz en welke diensten bieden jullie aan?",
+      "response": "21Qubz is een onderdeel van 21south en richt zich op het optimaliseren van afvalinzamelingsprocessen door middel van innovatieve technologie en data-analyse.  We bieden diensten aan die bedrijven en gemeentes helpen om hun afvalbeheer efficiënter, duurzamer en kosteneffectiever te maken.  Dit omvat onder andere:\n\n* **Optimalisatie van routes en planning:**  Door slimme algoritmes en real-time data-analyse zorgen we voor efficiëntere routes voor afvalinzameling, waardoor brandstofverbruik en uitstoot worden verminderd.\n\n* **Predictive maintenance:**  Met behulp van data-analyse voorspellen we mogelijke problemen met afvalinzamelingsvoertuigen, waardoor stilstand wordt voorkomen en de beschikbaarheid wordt verhoogd.\n\n* **Real-time monitoring en rapportage:**  We bieden real-time inzicht in de voortgang van de afvalinzameling, zodat problemen snel kunnen worden geïdentificeerd en opgelost.  Dit resulteert in transparante en betrouwbare rapportage.\n\n* **Data-driven inzichten:**  We leveren waardevolle data-inzichten over afvalstromen, recyclingpercentages en andere relevante metrics, die helpen bij het nemen van data-gedreven beslissingen over afvalbeheer.\n\n\nDe precieze diensten en functionaliteiten kunnen variëren afhankelijk van de specifieke behoeften van de klant.  Voor meer gedetailleerde informatie over onze diensten en mogelijkheden, kunt u contact met ons opnemen.\n",
+      "responseTime": 2875,
+      "tokenInfo": {
+        "promptTokens": 218,
+        "completionTokens": 335,
+        "totalTokens": 553
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:44.130Z",
+      "responseLength": 1391,
+      "success": true,
+      "relevantDocs": [],
+      "docsFound": 0
+    },
+    {
+      "provider": "groq",
+      "testName": "Nieuwe Klant Toevoegen",
+      "prompt": "Hoe maak ik een nieuwe klant aan in het systeem?",
+      "response": "Om een nieuwe klant aan te maken in het systeem, kan je volgende stappen uitvoeren:\n\n1. Ga naar het hoofdmenu en selecteer \"Klanten\" of een vergelijkbaar submenu waarin klanten worden beheerd. \n2. Klik op de \"Groene plusje (+)\" om een nieuw item toe te voegen. \n   - Alternatief: Volg de instructie in Layout/navigatie-patronen.txt: Navigeer naar \"Klanten\" > \"Nieuw item toevoegen\" door te klikken op het groene plusje (+).\n\nDit is de meest efficiënte manier om een nieuwe klant aan te maken in het systeem.",
+      "responseTime": 472,
+      "tokenInfo": {
+        "promptTokens": 670,
+        "completionTokens": 159,
+        "totalTokens": 829
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:45.602Z",
+      "responseLength": 507,
+      "success": true,
+      "relevantDocs": [
+        "21QUBZ.txt",
+        "Layout/contract-management.txt",
+        "Layout/navigatie-patronen.txt"
+      ],
+      "docsFound": 3
+    },
+    {
+      "provider": "gemini",
+      "testName": "Nieuwe Klant Toevoegen",
+      "prompt": "Hoe maak ik een nieuwe klant aan in het systeem?",
+      "response": "Het document beschrijft niet expliciet hoe je een *nieuwe klant* aanmaakt in het 21QUBZ systeem.  De documentatie focust op het aanmaken van contracten.  Omdat een klant waarschijnlijk gelinkt is aan een contract, neem ik aan dat het aanmaken van een nieuwe klant indirect gebeurt via het aanmaken van een nieuw contract.\n\nVolg daarom deze stappen om een nieuw contract (en daarmee indirect een nieuwe klant) aan te maken:\n\n**Methode 1 (via Contracten > Contracten):**\n\n1. Ga naar het menu \"Contracten\".\n2. Selecteer \"Contracten\".\n3. Klik op het groene plusje (+).\n\n**Methode 2 (via Contracten > Contracten > Alle contracten):**\n\n1. Ga naar het menu \"Contracten\".\n2. Selecteer \"Contracten\".\n3. Selecteer \"Alle contracten\".\n4. Klik op het groene plusje (+).\n\n\nTijdens het aanmaken van het contract zul je waarschijnlijk de klantgegevens moeten invoeren.  Zonder verdere informatie over het 21QUBZ systeem kan ik niet specifieker zijn over de exacte stappen binnen het aanmaakproces van het contract.\n",
+      "responseTime": 3180,
+      "tokenInfo": {
+        "promptTokens": 584,
+        "completionTokens": 260,
+        "totalTokens": 844
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:48.782Z",
+      "responseLength": 999,
+      "success": true,
+      "relevantDocs": [
+        "21QUBZ.txt",
+        "Layout/contract-management.txt",
+        "Layout/navigatie-patronen.txt"
+      ],
+      "docsFound": 3
+    },
+    {
+      "provider": "groq",
+      "testName": "Contract Management",
+      "prompt": "Waar kan ik contracten beheren en nieuwe contracten aanmaken?",
+      "response": "Volgens de documenten kun je contracten beheren en nieuwe contracten aanmaken in het menu \"Contracten\". Hieronder vind je de specifieke stappen:\n\n- **Nieuw contract maken**: Ga naar \"Contracten\" > \"Contracten\" > Klik op het groene plusje (+)\n- **Contract bewerken**: Ga naar \"Contracten\" > \"Contracten\" > Selecteer het contract > Klik op \"Bewerken\"\n- **Contract inzien**: Ga naar \"Contracten\" > \"Contracten\" > Selecteer het contract\n- **Nieuw contract toevoegen**: Ga naar \"Contracten\" > \"Contracten\" > \"Alle contracten\" > Klik op het groene plusje (+)\n- **Contract bekijken**: Ga naar \"Contracten\" > \"Contracten\" > \"Alle contracten\" > Selecteer het contract\n- **Contract bewerken**: Ga naar \"Contracten\" > \"Contracten\" > Selecteer het contract > Klik op \"Bewerken\"\n\nHet is dus mogelijk om contracten te maken, bewerken en inzien in het menu \"Contracten\".",
+      "responseTime": 679,
+      "tokenInfo": {
+        "promptTokens": 672,
+        "completionTokens": 244,
+        "totalTokens": 916
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:50.463Z",
+      "responseLength": 855,
+      "success": true,
+      "relevantDocs": [
+        "21QUBZ.txt",
+        "Layout/contract-management.txt",
+        "Layout/navigatie-patronen.txt"
+      ],
+      "docsFound": 3
+    },
+    {
+      "provider": "gemini",
+      "testName": "Contract Management",
+      "prompt": "Waar kan ik contracten beheren en nieuwe contracten aanmaken?",
+      "response": "U kunt contracten beheren en nieuwe contracten aanmaken via het menu \"Contracten\".  Om een nieuw contract te maken, klikt u op \"Contracten > Contracten\" en vervolgens op het groene plusje (+).  U kunt bestaande contracten bekijken door naar \"Contracten > Contracten\" te gaan en het gewenste contract te selecteren.  Het bewerken van een contract kan via \"Contracten > Contracten > [Selecteer contract] > Bewerken\" of via \"Contracten > Contracten > Alle contracten > [Selecteer contract] > Bewerken\".  De exacte locatie van de bewerkingsoptie verschilt lichtjes afhankelijk van de pagina waarop u zich bevindt.\n",
+      "responseTime": 1738,
+      "tokenInfo": {
+        "promptTokens": 587,
+        "completionTokens": 149,
+        "totalTokens": 736
+      },
+      "error": null,
+      "timestamp": "2025-09-18T07:41:52.201Z",
+      "responseLength": 610,
+      "success": true,
+      "relevantDocs": [
+        "21QUBZ.txt",
+        "Layout/contract-management.txt",
+        "Layout/navigatie-patronen.txt"
+      ],
+      "docsFound": 3
+    }
+  ],
+  "generatedAt": "2025-09-18T07:41:53.205Z"
+}

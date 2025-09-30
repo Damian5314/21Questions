@@ -1,15 +1,18 @@
 # 21Questions Chat Widget
 
-A framework-agnostic React chat widget with Gemini AI integration and document retrieval capabilities.
+Een framework-agnostische React chat widget met Groq API integratie en geavanceerde document retrieval functionaliteiten voor 21Qubz en 21south.
 
 ## Features
 
-- Floating chat button that expands into a chat panel
-- Integration with Google Gemini AI via Node.js proxy
-- Local document retrieval (PDF and TXT files)
-- TypeScript support
-- Customizable themes (light/dark) and positioning
-- Framework-agnostic design for easy integration into any application
+- Zwevende chat-knop die uitklapt tot een chat-paneel met animaties
+- Integratie met Groq API (Llama 3.1-8b-instant model) via Node.js proxy
+- Geavanceerde document retrieval (PDF, TXT en DOCX bestanden)
+- Intelligente zoekfunctionaliteit met synoniemen en prioriteiten
+- Begroetingsdetectie en business context validatie
+- Navigatiepaden ondersteuning voor Layout-bestanden
+- TypeScript ondersteuning
+- Aanpasbare thema's (licht/donker) en positionering
+- Framework-agnostische ontwerp voor eenvoudige integratie in elke applicatie
 
 ## Setup Instructions
 
@@ -26,22 +29,27 @@ npm install
    copy .env.example .env
    ```
 
-2. Get your Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Get your Groq API key from [Groq Console](https://console.groq.com/keys)
 
 3. Update `.env` with your API key:
    ```
-   GEMINI_API_KEY=your_actual_gemini_api_key_here
+   GROQ_API_KEY=your_actual_groq_api_key_here
    PORT=3001
    ```
 
 ### 3. Add Documents (Optional)
 
-Create a `docs` folder in the root directory and add your PDF or TXT files:
+Create a `docs` folder in the root directory and add your PDF, TXT or DOCX files:
 ```
 21Questions/
 ├── docs/
 │   ├── document1.pdf
 │   ├── document2.txt
+│   ├── document3.docx
+│   ├── Layout/
+│   │   ├── relaties.txt
+│   │   ├── contract-management.txt
+│   │   └── ...
 │   └── ...
 ```
 
@@ -104,8 +112,8 @@ The widget is designed to be easily integrated into Mendix pluggable widgets:
 
 The Node.js server provides these endpoints:
 
-- `POST /api/chat` - Send a message and get AI response
-- `POST /api/upload` - Upload documents (PDF/TXT)
+- `POST /api/chat` - Send a message and get AI response with Groq integration
+- `POST /api/upload` - Upload documents (PDF/TXT/DOCX)
 - `GET /api/documents` - List uploaded documents
 
 ## File Structure
@@ -119,10 +127,20 @@ The Node.js server provides these endpoints:
 │   ├── types.ts            # TypeScript interfaces
 │   └── index.tsx           # Demo application
 ├── server/
-│   └── index.js            # Express server with Gemini integration
+│   ├── index.js            # Express server main file
+│   ├── config/
+│   │   └── groq.js         # Groq API configuration
+│   ├── routes/
+│   │   ├── chatRoutes.js   # Chat API endpoints
+│   │   ├── uploadRoutes.js # Document upload endpoints
+│   │   └── documentRoutes.js # Document management endpoints
+│   └── services/
+│       ├── chatService.js  # Groq integration and chat logic
+│       └── documentService.js # Document processing and search
 ├── public/
 │   └── index.html          # Demo HTML template
-├── docs/                   # Place your documents here
+├── docs/                   # Place your documents here (PDF/TXT/DOCX)
+│   └── Layout/            # Navigation paths documentation
 ├── package.json
 ├── tsconfig.json
 ├── webpack.dev.js
@@ -138,7 +156,17 @@ The Node.js server provides these endpoints:
 
 ## Troubleshooting
 
-1. **API Key Issues**: Make sure your Gemini API key is correctly set in the `.env` file
+1. **API Key Issues**: Make sure your Groq API key is correctly set in the `.env` file
 2. **CORS Issues**: The server is configured to allow requests from any origin for development
-3. **Document Loading**: Place documents in the `docs/` folder and restart the server
+3. **Document Loading**: Place documents in the `docs/` folder and restart the server. Supported formats: PDF, TXT, DOCX
 4. **Build Issues**: Ensure all dependencies are installed with `npm install`
+5. **Search Issues**: Ensure Layout files are properly placed in `docs/Layout/` for navigation path support
+
+## AI Model Details
+
+The chat widget uses Groq's Llama 3.1-8b-instant model which provides:
+- Fast response times
+- Support for Nederlandse taal
+- Business context awareness for 21Qubz and 21south
+- Intelligent document retrieval with synonym matching
+- Greeting detection and appropriate responses

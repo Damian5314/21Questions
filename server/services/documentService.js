@@ -59,7 +59,36 @@ const initializeDocuments = async () => {
 
 const searchDocuments = (query) => {
   const queryLower = query.toLowerCase();
-  
+
+  // Check if this is a greeting
+  const greetingKeywords = ['hallo', 'hello', 'hi', 'hey', 'goedemorgen', 'goedemiddag', 'goedenavond', 'goededag'];
+  const isGreeting = greetingKeywords.some(greeting => queryLower.trim() === greeting || queryLower.trim().startsWith(greeting + ' ') || queryLower.trim().endsWith(' ' + greeting));
+
+  // For greetings, return a special indicator
+  if (isGreeting) {
+    return [{ filename: 'GREETING', content: '', type: 'greeting' }];
+  }
+
+  // Define business domain keywords that indicate the query is related to 21Qubz/21south
+  const businessKeywords = [
+    // Core business terms
+    '21qubz', '21south', 'afval', 'afvalinzameling', 'klant', 'klanten', 'relatie', 'relaties',
+    'contract', 'contracten', 'overeenkomst', 'personeel', 'medewerker', 'planning', 'plannen',
+    'plaatsing', 'plaatsingen', 'order', 'orders', 'factuur', 'facturatie', 'wetgeving',
+    'afvalstroom', 'afvalstromen', 'beheer', 'erp', 'systeem',
+    // Action terms in business context
+    'aanmaken', 'toevoegen', 'creëren', 'nieuwe', 'bewerken', 'wijzigen', 'verwijderen',
+    'inloggen', 'gebruiker', 'toegang', 'rechten', 'rol', 'rollen'
+  ];
+
+  // Check if query contains any business-related terms
+  const hasBusinessContext = businessKeywords.some(keyword => queryLower.includes(keyword));
+
+  // If no business context is found, return empty results
+  if (!hasBusinessContext) {
+    return [];
+  }
+
   // Define synonym mappings for better search
   const synonyms = {
     'klant': ['klanten', 'klant', 'relatie', 'relaties', 'customer'],
@@ -70,7 +99,7 @@ const searchDocuments = (query) => {
     'planning': ['plannen', 'plannings', 'inplannen'],
     'plaatsing': ['plaatsingen', 'historische plaatsingen', 'lopende plaatsingen']
   };
-  
+
   // Expand query with synonyms
   let searchTerms = [queryLower];
   for (const [key, values] of Object.entries(synonyms)) {
@@ -79,8 +108,8 @@ const searchDocuments = (query) => {
       searchTerms.push(key);
     }
   }
-  
-  // Check if this is a navigation question
+
+  // Check if this is a navigation question with business context
   const navigationKeywords = ['waar', 'hoe', 'maken', 'toevoegen', 'vinden', 'navigeren', 'contract', 'afvalstroom', 'gaan naar', 'plusje', 'nieuwe', 'klant', 'aanmaken', 'creëren'];
   const isNavigationQuery = navigationKeywords.some(keyword => queryLower.includes(keyword));
   

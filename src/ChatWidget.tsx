@@ -293,11 +293,6 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({
                   <div style={messageStyle(message.sender)}>
                     {message.text}
                   </div>
-                  {message.sources && message.sources.length > 0 && (
-                    <div style={sourcesStyle}>
-                      Bronnen: {message.sources.join(', ')}
-                    </div>
-                  )}
                 </div>
               </div>
             ))}
